@@ -1,0 +1,4003 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "39cd98a2-433c-4f66-9e8e-06104f90f664")
+	(paper "A3")
+	(title_block
+		(title "Mynd-Batt-Conn")
+		(rev "3.1")
+	)
+	(lib_symbols
+		(symbol "Mynd_Batt-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"GND\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Batt-altium-import:root_0_MARK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MARK DOT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*MARK*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_MARK_1_0"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 1.27 0 180)
+					(length 1.27)
+					(name "MK_B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "MK_B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 0 0)
+					(length 1.27)
+					(name "MK_T"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "MK_T"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Batt-altium-import:root_0_Teufel NoLogo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel PCB NoLogo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_NoLogo*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Mynd_Batt-altium-import:root_0_Teufel_ASM_Label"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel_ASM_Rev"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_ASM_Rev*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Teufel_ASM_Label_1_0"
+				(text "ASM_Rev"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Batt-altium-import:root_0_Teufel_Copyright"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel_Copyright_Year"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TEUFEL_COPYRIGHT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Teufel_Copyright_1_0"
+				(text "Copyright_Year"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Batt-altium-import:root_0_Teufel_PCB_Label"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel_PCB_Label"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_PCB_Rev*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Teufel_PCB_Label_1_0"
+				(text "PCB_Rev"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Batt-altium-import:root_1_SCREW_HOLE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SCREW_HOLE D3.2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SCREW_D32*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_SCREW_HOLE_1_0"
+				(bezier
+					(pts
+						(xy -2.032 3.81) (xy -2.032 3.7398) (xy -1.9183 3.683) (xy -1.778 3.683)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy -1.778 3.683) (xy -1.6378 3.683) (xy -1.524 3.7398) (xy -1.524 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy -1.778 3.937) (xy -1.9183 3.937) (xy -2.032 3.8801) (xy -2.032 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy -1.524 3.81) (xy -1.524 3.8801) (xy -1.6378 3.937) (xy -1.778 3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy -0.127 2.032) (xy -0.127 1.8917) (xy -0.0702 1.778) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy -0.127 5.588) (xy -0.127 5.4477) (xy -0.0702 5.334) (xy 0 5.334)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 3.81) (xy -1.778 3.937) (xy -2.032 3.81) (xy -1.778 3.683) (xy -1.524 3.81)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 2.032) (xy 0 2.286) (xy -0.127 2.032) (xy 0 1.778) (xy 0.127 2.032)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 5.588) (xy 0 5.842) (xy -0.127 5.588) (xy 0 5.334) (xy 0.127 5.588)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 3.81) (xy 1.778 3.937) (xy 1.524 3.81) (xy 1.778 3.683) (xy 2.032 3.81)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0 1.778) (xy 0.0701 1.778) (xy 0.127 1.8917) (xy 0.127 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0 2.286) (xy -0.0702 2.286) (xy -0.127 2.1722) (xy -0.127 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 3.81)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 3.81)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0 5.334) (xy 0.0701 5.334) (xy 0.127 5.4477) (xy 0.127 5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0 5.842) (xy -0.0702 5.842) (xy -0.127 5.7282) (xy -0.127 5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0.127 2.032) (xy 0.127 2.1722) (xy 0.0701 2.286) (xy 0 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0.127 5.588) (xy 0.127 5.7282) (xy 0.0701 5.842) (xy 0 5.842)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy 1.524 3.81) (xy 1.524 3.7398) (xy 1.6377 3.683) (xy 1.778 3.683)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy 1.778 3.683) (xy 1.9182 3.683) (xy 2.032 3.7398) (xy 2.032 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy 1.778 3.937) (xy 1.6377 3.937) (xy 1.524 3.8801) (xy 1.524 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(bezier
+					(pts
+						(xy 2.032 3.81) (xy 2.032 3.8801) (xy 1.9182 3.937) (xy 1.778 3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Batt-altium-import:root_2_CON 8P_F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD WTB CONNECTOR 8P P2.5mm TIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CON_250_SMD_H_8P*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_CON 8P_F_1_0"
+				(rectangle
+					(start 0 22.86)
+					(end -5.08 0)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 25.4 270)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 12.7 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 15.24 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 17.78 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 20.32 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Batt-altium-import:root_3_CON 8P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD BTB CONNECTOR 8P P2.5mm GOLD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TSB1_05282*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_CON 8P_1_0"
+				(rectangle
+					(start 0 0)
+					(end -22.86 -5.08)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -7.62 90)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -7.62 90)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -7.62 90)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Batt-altium-import:root_3_TP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TP120*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_TP_1_0"
+				(circle
+					(center 0 -3.81)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 147.32 120.4722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02b1d3aa-4e0a-4da2-b0bb-8428c93805d7")
+	)
+	(junction
+		(at 147.32 140.7922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "109a26ad-f0a4-4d1d-9a9c-db467d0781c6")
+	)
+	(junction
+		(at 142.24 120.4722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f8abe2b-a9c9-4845-bd36-1a814d016b51")
+	)
+	(junction
+		(at 182.88 143.3322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "470f534e-2560-4229-97d4-4c5eb84e8759")
+	)
+	(junction
+		(at 137.16 158.5722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51c90172-87e5-4ddc-b734-166c3d0c69a6")
+	)
+	(junction
+		(at 132.08 120.4722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674badfa-2c24-41e8-97c1-f42c72649fbb")
+	)
+	(junction
+		(at 196.85 170.0022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cdab744-94bb-49cc-a047-a5f857fbc5e4")
+	)
+	(junction
+		(at 149.86 120.4722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73ea2d0e-244d-4708-b7b0-3d26f525c2b8")
+	)
+	(junction
+		(at 134.62 120.4722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b5b6985-cfb0-4ebe-bda2-0553bf3f5b45")
+	)
+	(junction
+		(at 186.69 158.5722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8223c06f-55df-4ba9-8269-2a669b1de554")
+	)
+	(junction
+		(at 139.7 120.4722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "865037ae-02d5-4b21-967f-30d8d8ccaed1")
+	)
+	(junction
+		(at 149.86 140.7922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9032893-3806-498d-bc1f-7de2af84baf5")
+	)
+	(junction
+		(at 182.88 140.7922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e15e5661-d07e-444c-88e5-fcef6776ab27")
+	)
+	(junction
+		(at 134.62 158.5722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e95d3f28-4d30-4368-9e45-98147f4775c9")
+	)
+	(junction
+		(at 186.69 153.4922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd0a7aba-d4ae-4781-a753-78e496ebde6b")
+	)
+	(junction
+		(at 186.69 156.0322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fed680e4-b04f-4aa3-8ecc-9392b7217e33")
+	)
+	(wire
+		(pts
+			(xy 191.77 148.4122) (xy 142.24 148.4122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021e882d-2229-4bc4-9de9-583f4011a5d7")
+	)
+	(wire
+		(pts
+			(xy 182.88 145.8722) (xy 182.88 143.3322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075e38a7-40f5-4393-829c-83801604d131")
+	)
+	(wire
+		(pts
+			(xy 182.88 140.7922) (xy 191.77 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9b6ce5-b0e8-4821-a35f-aab903782f20")
+	)
+	(polyline
+		(pts
+			(xy 317.5 266.5222) (xy 388.62 266.5222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "10a02ffb-b282-450f-b581-8b49e04bec91")
+	)
+	(wire
+		(pts
+			(xy 182.88 143.3322) (xy 182.88 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ad7641-a248-492e-bf64-4c922122b4df")
+	)
+	(wire
+		(pts
+			(xy 137.16 117.9322) (xy 137.16 158.5722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0423d1-e0b2-4ee2-8523-9036ce1e4ef0")
+	)
+	(wire
+		(pts
+			(xy 134.62 158.5722) (xy 134.62 120.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4f4b1a-b38d-46e4-88cb-d0601d57dc4e")
+	)
+	(polyline
+		(pts
+			(xy 317.5 281.7622) (xy 388.62 281.7622)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2fe7f399-73ed-41d9-90e7-efc30281a324")
+	)
+	(wire
+		(pts
+			(xy 147.32 140.7922) (xy 149.86 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301c422e-55bd-4288-9088-e874bf4307af")
+	)
+	(wire
+		(pts
+			(xy 186.69 131.9022) (xy 186.69 153.4922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4328e2fe-69c4-4395-993a-e9c09575d5b0")
+	)
+	(wire
+		(pts
+			(xy 142.24 120.4722) (xy 142.24 117.9322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458233b6-3883-492b-ac5e-f0c26b0c9e0c")
+	)
+	(wire
+		(pts
+			(xy 182.88 140.7922) (xy 149.86 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a22d383-bef8-4dad-ad8a-80d662678869")
+	)
+	(wire
+		(pts
+			(xy 142.24 148.4122) (xy 142.24 120.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa83b0f-0373-440b-85e9-e1b43262bb52")
+	)
+	(polyline
+		(pts
+			(xy 317.5 266.5222) (xy 317.5 241.1222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "52f09960-ce41-4b65-b3a2-551e5745700d")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.4722) (xy 139.7 117.9322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5e1da2-2444-466a-8cb0-3f58dc9c1da0")
+	)
+	(wire
+		(pts
+			(xy 196.85 131.9022) (xy 186.69 131.9022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7845ca-86a9-4925-aedf-4f9c9816ed49")
+	)
+	(wire
+		(pts
+			(xy 196.85 135.7122) (xy 196.85 131.9022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605bc670-8d92-4c3a-bd0e-835f8e9994da")
+	)
+	(wire
+		(pts
+			(xy 182.88 143.3322) (xy 191.77 143.3322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618f196c-3ab0-4857-a926-3187e0984a78")
+	)
+	(wire
+		(pts
+			(xy 186.69 153.4922) (xy 186.69 156.0322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632caac7-e623-433f-912f-fdbc7c052801")
+	)
+	(wire
+		(pts
+			(xy 186.69 158.5722) (xy 186.69 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfd3801-ca45-4c82-b98a-91ee51130a24")
+	)
+	(polyline
+		(pts
+			(xy 317.5 286.8422) (xy 388.62 286.8422)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7a80eba9-3d8e-4fb4-b772-466a990b54b5")
+	)
+	(wire
+		(pts
+			(xy 144.78 117.9322) (xy 144.78 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7daf849a-9ac5-4748-9a58-458406d3d0ba")
+	)
+	(polyline
+		(pts
+			(xy 317.5 279.2222) (xy 388.62 279.2222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7f9ad8ff-373c-4df4-8288-97af004b468b")
+	)
+	(polyline
+		(pts
+			(xy 368.3 291.9222) (xy 368.3 284.3022)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "810688ed-1669-4f96-bb38-96dacc86824a")
+	)
+	(wire
+		(pts
+			(xy 191.77 145.8722) (xy 182.88 145.8722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964f0f5d-f4bf-4c60-b0b7-b2f0eee4e534")
+	)
+	(wire
+		(pts
+			(xy 191.77 150.9522) (xy 139.7 150.9522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2aa463-dbc8-4c74-9a8f-db8034c7a9a5")
+	)
+	(wire
+		(pts
+			(xy 137.16 158.5722) (xy 186.69 158.5722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6c50a2-40fe-4069-bfa8-ab475addd3a5")
+	)
+	(wire
+		(pts
+			(xy 186.69 156.0322) (xy 191.77 156.0322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a201c32a-03fc-402d-adbd-9fb40782412b")
+	)
+	(wire
+		(pts
+			(xy 186.69 156.0322) (xy 186.69 158.5722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a42d1a-85de-46bc-be73-aafa6c00709c")
+	)
+	(wire
+		(pts
+			(xy 149.86 120.4722) (xy 149.86 117.9322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b8fbd9-98db-4860-acc3-fab5b3527d6f")
+	)
+	(wire
+		(pts
+			(xy 132.08 117.9322) (xy 132.08 120.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a987c574-8d74-4c26-a861-58ed022c6fcd")
+	)
+	(polyline
+		(pts
+			(xy 317.5 291.9222) (xy 317.5 266.5222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b32ff9c7-13b6-4c24-b2f5-528067e4b179")
+	)
+	(wire
+		(pts
+			(xy 196.85 170.0022) (xy 196.85 163.6522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69f8675-9377-4a64-b6b2-a114f7213191")
+	)
+	(wire
+		(pts
+			(xy 132.08 120.4722) (xy 132.08 158.5722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ae46bc-7267-4d98-b02f-652d21a243a5")
+	)
+	(polyline
+		(pts
+			(xy 317.5 284.3022) (xy 388.62 284.3022)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b713a4f5-05b7-4d00-9874-0c92ca231350")
+	)
+	(wire
+		(pts
+			(xy 186.69 170.0022) (xy 196.85 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd006bf3-9dfb-48cc-b404-26511d177957")
+	)
+	(wire
+		(pts
+			(xy 147.32 120.4722) (xy 147.32 117.9322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82c6899-7924-4e7c-864e-7d10fb6d1d0e")
+	)
+	(polyline
+		(pts
+			(xy 317.5 289.3822) (xy 388.62 289.3822)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d1e59c39-0172-42da-9f91-7d80792d8e94")
+	)
+	(wire
+		(pts
+			(xy 186.69 158.5722) (xy 191.77 158.5722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2fb41f-1924-4fc0-bdce-9958aa620a2a")
+	)
+	(wire
+		(pts
+			(xy 134.62 158.5722) (xy 137.16 158.5722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de413330-1036-4545-a4b7-f3b3a15ab551")
+	)
+	(wire
+		(pts
+			(xy 147.32 140.7922) (xy 147.32 120.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e22c69-f670-416e-ab76-f40dff4996c1")
+	)
+	(wire
+		(pts
+			(xy 144.78 140.7922) (xy 147.32 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97234b1-4667-4e85-b1f8-aea3cebb2940")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.4722) (xy 134.62 117.9322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5af340-e2f7-4082-91df-65ea2952d9f2")
+	)
+	(wire
+		(pts
+			(xy 149.86 140.7922) (xy 149.86 120.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f025f56a-820b-4dfa-ae46-ffee9116e054")
+	)
+	(wire
+		(pts
+			(xy 139.7 150.9522) (xy 139.7 120.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f060a126-f027-4182-a61e-36d2062667fe")
+	)
+	(wire
+		(pts
+			(xy 186.69 153.4922) (xy 191.77 153.4922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12d7612-f9c2-4b97-a744-420a2daa2334")
+	)
+	(wire
+		(pts
+			(xy 132.08 158.5722) (xy 134.62 158.5722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f796a8bb-167e-4dfa-9f39-f26fd68422b9")
+	)
+	(text "of"
+		(exclude_from_sim no)
+		(at 381 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02179abc-ca71-4441-9b0d-b9957ce8d925")
+	)
+	(text "Lautspreecher Teufel GmbH"
+		(exclude_from_sim no)
+		(at 358.14 270.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ac8f851-1eb8-42bc-99c2-b9dcf5d4b0b0")
+	)
+	(text "Size:"
+		(exclude_from_sim no)
+		(at 370.84 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17b04fab-1607-42b5-be66-3526d509ef84")
+	)
+	(text "Germany"
+		(exclude_from_sim no)
+		(at 358.14 277.9522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b04777d-eb5d-4ad9-8bac-ce775d1a7a38")
+	)
+	(text "Page:"
+		(exclude_from_sim no)
+		(at 370.84 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b360da5-0819-4173-bf32-1f66e35d1401")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 330.2 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ef5d161-9c5a-4fa8-910a-5bb0e378f15f")
+	)
+	(text "modified:"
+		(exclude_from_sim no)
+		(at 365.76 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28b322dd-eb12-4f69-aef1-a31e90865c79")
+	)
+	(text "Revision:"
+		(exclude_from_sim no)
+		(at 318.77 243.6622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47048d03-7210-4472-bbbc-ec4a7c9766a3")
+	)
+	(text "Date:"
+		(exclude_from_sim no)
+		(at 370.84 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4840334a-2c90-4912-a9ff-20c47fc3c3e8")
+	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 330.2 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f78e3f4-f5a4-4d97-936f-72649e8d2648")
+	)
+	(text "Budapester Straße 44"
+		(exclude_from_sim no)
+		(at 358.14 272.8722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "70ef34f8-4c4a-4d99-a90f-a36eed7ef7ba")
+	)
+	(text "${REVISION}"
+		(exclude_from_sim no)
+		(at 350.52 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8105f160-b53f-418c-b3e3-9088184f58c6")
+	)
+	(text "Page Title:"
+		(exclude_from_sim no)
+		(at 320.04 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "891b5dfd-9482-4266-9d37-c7393d50b07e")
+	)
+	(text "Project:"
+		(exclude_from_sim no)
+		(at 320.04 281.7622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98285bac-e7e5-4d7f-acbd-1b1bd226807d")
+	)
+	(text "Engineer:"
+		(exclude_from_sim no)
+		(at 320.04 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a070b9-da52-41c6-bcea-c53b329a85d2")
+	)
+	(text "Version:"
+		(exclude_from_sim no)
+		(at 320.04 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8add919-ad7d-4856-af6f-f8569b120cd9")
+	)
+	(text "${VERSION}"
+		(exclude_from_sim no)
+		(at 330.2 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b82fe51b-7369-42a0-b9e7-9705802674c5")
+	)
+	(text "${MODIFIEDDATE}"
+		(exclude_from_sim no)
+		(at 375.92 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bae58761-cad1-4dbb-9348-f0593c2a3195")
+	)
+	(text "${PROJECTNAME}"
+		(exclude_from_sim no)
+		(at 330.2 281.7622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbcaa55c-7ee4-426f-b7ae-5e46b94ffd0b")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 375.92 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d541e96d-953a-4eef-9c7b-240df0824864")
+	)
+	(text "${ENGINEER}"
+		(exclude_from_sim no)
+		(at 330.2 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6f487ca-af39-432c-99bc-f8f34da214ff")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 383.54 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddb23de3-9708-47b8-804f-221d2241ca2f")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 375.92 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f219b2bd-cb09-4eae-97b3-bb32bc24fbe3")
+	)
+	(text "10787 Berlin"
+		(exclude_from_sim no)
+		(at 358.14 275.4122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f340c05d-7d82-43d2-b624-4cd1879bf93e")
+	)
+	(text "Mynd Bat. Connector"
+		(exclude_from_sim no)
+		(at 193.04 32.8422 0)
+		(effects
+			(font
+				(size 4.572 4.572)
+				(thickness 0.9144)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "f645b58e-ebc6-4a29-8223-991b3d50d980")
+	)
+	(text "Rev:"
+		(exclude_from_sim no)
+		(at 345.44 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f65db54c-5e63-43c9-bbc6-28507f8d5474")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 378.46 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbf8cc2a-ebcf-4c97-a32a-7c79dc07326a")
+	)
+	(text "File Name:"
+		(exclude_from_sim no)
+		(at 320.04 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc56e1f1-d483-409e-8cfd-9bfa34d01373")
+	)
+	(label "Bat+"
+		(at 165.1 140.7922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13da9f78-6ec1-497e-9230-010a9ab049f8")
+	)
+	(label "Bat-"
+		(at 165.1 158.5722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "558013dd-85c5-486c-ac35-6379f4088632")
+	)
+	(label ""
+		(at 166.37 150.9522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e78e04f-2c43-4455-b55d-fe4dd7c9f4de")
+	)
+	(label "C_Open"
+		(at 165.1 150.9522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c537186-f8c4-4362-893f-875ab44a666c")
+	)
+	(label "NTC"
+		(at 165.1 148.4122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acdf55bb-0224-4134-8cca-56dc132a8939")
+	)
+	(label ""
+		(at 170.18 140.7922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f995ffc1-b315-43c6-9769-8ee639d40a8a")
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_1_SCREW_HOLE")
+		(at 177.8 196.6722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "037da48e-25d7-4c5e-be26-873e42b4127a")
+		(property "Reference" "MH1T"
+			(at 175.26 189.0522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SCREW_HOLE"
+			(at 175.26 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SCREW_D32"
+			(at 177.8 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SCREW_HOLE D3.2mm"
+			(at 177.8 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "SCREW_HOLE"
+			(at 175.26 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81611fcf-d950-44c3-9fc9-4b1c2681655e")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "MH1T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_0_Teufel_ASM_Label")
+		(at 318.77 257.6322 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "065d0f5c-1564-481c-a3d7-da54015656be")
+		(property "Reference" "Teufel_ASM_Label1T"
+			(at 318.77 254.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 318.77 259.6642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_ASM_Rev"
+			(at 318.77 257.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 257.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel_ASM_Rev"
+			(at 318.77 257.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "3.1"
+			(at 318.77 254.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "Teufel_ASM_Label1T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:GND_POWER_GROUND")
+		(at 186.69 196.6722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c121d35-c632-46ce-a14e-62153f9ad23a")
+		(property "Reference" "#PWR?"
+			(at 186.69 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "572c40b2-845e-4696-8851-3a8172b0b5da")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_3_CON 8P")
+		(at 152.4 110.3122 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1adc40b5-2524-42a0-bf07-a10731656b16")
+		(property "Reference" "P1T"
+			(at 135.89 105.2322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 132.08 107.7722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "TSB1_05282"
+			(at 152.4 110.3122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 110.3122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD BTB CONNECTOR 8P P2.5mm GOLD"
+			(at 152.4 110.3122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 129.54 110.3122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SYSTEM" "Connector"
+			(at 129.54 120.9802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "8P PITCH=2.5mm"
+			(at 129.54 102.6922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Connector 8 Pin SMT"
+			(at 129.54 102.6922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 129.54 102.6922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ba0e4d-6133-454a-9929-2bdfaf163c4a")
+		)
+		(pin "5"
+			(uuid "fc25f7ef-c471-441b-9480-2a87068b04f3")
+		)
+		(pin "7"
+			(uuid "55252216-df8c-4eaf-b77a-aa0b1d56319c")
+		)
+		(pin "8"
+			(uuid "01ac52fa-0b38-4cf6-8e93-bbfcae358595")
+		)
+		(pin "4"
+			(uuid "7b492f90-0928-4f8d-a7d1-7a9a11af0cc5")
+		)
+		(pin "3"
+			(uuid "267dd313-8228-4eb1-8b42-e8371f54d542")
+		)
+		(pin "2"
+			(uuid "27c39f31-ba7e-44db-869a-6f691a3df3e4")
+		)
+		(pin "6"
+			(uuid "5ba88ddd-2504-4534-a971-1fdb7e3deb6e")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "P1T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_3_TP")
+		(at 142.24 120.4722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "224928d7-a16c-4643-a426-f8043b43f041")
+		(property "Reference" "TP4T"
+			(at 142.24 126.8222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TP12"
+			(at 140.97 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 142.24 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 142.24 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 140.97 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b734ba5c-4631-4f19-b042-21a3f90f5dab")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "TP4T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_3_TP")
+		(at 149.86 120.4722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24d4ef74-3e39-40d1-8cf6-a33a51f8b2af")
+		(property "Reference" "TP6T"
+			(at 149.86 126.8222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TP12"
+			(at 148.59 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 149.86 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 149.86 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 148.59 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1945a92e-a8c7-467b-8c26-be4ec30d151c")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "TP6T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_3_TP")
+		(at 147.32 120.4722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c3afc90-8c37-4bfe-a7cc-7255de2190e6")
+		(property "Reference" "TP5T"
+			(at 147.32 126.8222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TP12"
+			(at 146.05 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 147.32 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 147.32 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 146.05 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b697a76-d906-419a-a62b-771c4ec2feca")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "TP5T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_3_TP")
+		(at 134.62 120.4722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e88b648-a2ed-47c9-bc1a-07c8a9ae67e3")
+		(property "Reference" "TP2T"
+			(at 134.62 126.8222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TP12"
+			(at 133.35 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 134.62 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 134.62 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 133.35 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7e472d6-3db1-4b31-a5e4-2e8bb8b901b7")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "TP2T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:GND_POWER_GROUND")
+		(at 196.85 170.0022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e31a165-8d69-45ca-b129-57971e7b8e40")
+		(property "Reference" "#PWR?"
+			(at 196.85 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "22525137-3d3f-4996-9478-5d2fd1657636")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_3_TP")
+		(at 139.7 120.4722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66515d92-eb65-4d50-b03b-90688db2e292")
+		(property "Reference" "TP3T"
+			(at 139.7 126.8222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TP12"
+			(at 138.43 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 139.7 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 139.7 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 138.43 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc811f4e-9d52-4eef-81f5-9f98d1cb4a6f")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "TP3T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_0_MARK")
+		(at 204.47 194.1322 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f2e3480-2971-4a07-8c76-1d606caeac51")
+		(property "Reference" "MK1T"
+			(at 201.93 191.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MARK"
+			(at 201.93 198.4502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "MARK"
+			(at 204.47 194.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 194.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MARK DOT"
+			(at 204.47 194.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "MARK"
+			(at 201.93 191.0842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "MK_T"
+			(uuid "7270472f-9498-40f8-b180-8d308864479e")
+		)
+		(pin "MK_B"
+			(uuid "43af3388-f5f9-4c0e-872a-1e6ee3a42e27")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "MK1T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_3_TP")
+		(at 132.08 120.4722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c68d4108-7d44-42ed-a571-0542cc487944")
+		(property "Reference" "TP1T"
+			(at 132.08 126.8222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TP12"
+			(at 130.81 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 132.08 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 132.08 120.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 130.81 119.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1135b7f7-455b-4ed3-abab-8bb112ce8555")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "TP1T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_0_Teufel_PCB_Label")
+		(at 318.77 251.2822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cce0430b-36ca-413e-8044-9fa52ddb244f")
+		(property "Reference" "Teufel_PCB_Label1T"
+			(at 318.77 248.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 318.77 253.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_PCB_Rev"
+			(at 318.77 251.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 251.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel_PCB_Label"
+			(at 318.77 251.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "3.1"
+			(at 318.77 248.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "Teufel_PCB_Label1T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_0_Teufel_Copyright")
+		(at 318.77 263.9822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccfde815-ec7d-4a0b-b738-99523bf784d8")
+		(property "Reference" "Teufel_Copyright1T"
+			(at 318.77 261.9502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 318.77 266.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "TEUFEL_COPYRIGHT"
+			(at 318.77 263.9822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 263.9822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel_Copyright_Year"
+			(at 318.77 263.9822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "2023"
+			(at 318.77 260.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "Teufel_Copyright1T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Mynd_Batt-altium-import:root_2_CON 8P_F")
+		(lib_id "Mynd_Batt-altium-import:root_2_CON 8P_F")
+		(at 199.39 161.1122 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2761f46-94d7-4fa1-beee-4c5b78e0c4c1")
+		(property "Reference" "P2T"
+			(at 194.31 128.0922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 189.23 130.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CON_250_SMD_H_8P"
+			(at 199.39 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD WTB CONNECTOR 8P P2.5mm TIN"
+			(at 199.39 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 191.262 142.8242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SYSTEM" "Connector"
+			(at 189.23 166.7002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "WT250MW-084R-0W"
+			(at 189.23 125.5522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Connector WTB SMT"
+			(at 189.23 125.5522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 189.23 125.5522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "e19d961e-80de-407c-91c9-dc7dc429d68b")
+		)
+		(pin "0"
+			(uuid "bf361072-37ec-4850-8de2-3501d711c85c")
+		)
+		(pin "3"
+			(uuid "b08128c0-34b5-4e04-9b7b-884c3762c325")
+		)
+		(pin "4"
+			(uuid "e385c60b-0544-425d-8923-aecd584815d3")
+		)
+		(pin "6"
+			(uuid "54fb5a70-6fa1-4be4-be7c-2a1d1cbea0f0")
+		)
+		(pin "0"
+			(uuid "9c110536-435a-4b65-8888-4fa7459f7a4c")
+		)
+		(pin "5"
+			(uuid "bf2f7174-4f77-4113-b7fd-b853e161139a")
+		)
+		(pin "1"
+			(uuid "0588fa77-0ce6-48a2-bc33-0a6043ee4167")
+		)
+		(pin "2"
+			(uuid "baba5377-5d3b-45b8-95bd-fd2f39456247")
+		)
+		(pin "8"
+			(uuid "c1ac481f-2efa-4ebd-bfc3-06f63e3c0e86")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "P2T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:GND_POWER_GROUND")
+		(at 177.8 196.6722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d60b7f90-af96-4d9f-8ee8-b98fc99129f2")
+		(property "Reference" "#PWR?"
+			(at 177.8 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "268b379e-8a05-4a42-98d7-3772f8b9bc31")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_1_SCREW_HOLE")
+		(at 186.69 196.6722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee868ce3-4735-47d2-bb0c-c5c74ec232b2")
+		(property "Reference" "MH2T"
+			(at 184.15 189.0522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SCREW_HOLE"
+			(at 184.15 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SCREW_D32"
+			(at 186.69 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SCREW_HOLE D3.2mm"
+			(at 186.69 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "SCREW_HOLE"
+			(at 184.15 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0b273aa-f168-42d1-b6b8-ec3871aef8a9")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "MH2T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_0_Teufel NoLogo")
+		(at 228.6 243.6622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3272963-bf1e-4097-9658-699ed0a2c0b6")
+		(property "Reference" "Teufel_PCB_Logo1T"
+			(at 227.33 242.3922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 318.77 246.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_NoLogo"
+			(at 228.6 243.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 243.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel PCB NoLogo"
+			(at 228.6 243.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 222.25 240.3602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 222.25 240.3602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" ""
+			(at 222.25 240.3602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" ""
+			(at 222.25 240.3602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMP_COEFFICIENT" ""
+			(at 222.25 240.3602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 222.25 240.3602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 222.25 240.3602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 222.25 240.3602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "Teufel_PCB_Logo1T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Batt-altium-import:root_0_MARK")
+		(at 212.09 194.1322 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc3e474d-7df4-468f-8032-c5c3f201853d")
+		(property "Reference" "MK2T"
+			(at 209.55 191.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MARK"
+			(at 209.55 198.4502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "MARK"
+			(at 212.09 194.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 194.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MARK DOT"
+			(at 212.09 194.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "MARK"
+			(at 209.55 191.0842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "MK_B"
+			(uuid "a4f8f523-d272-485b-8b93-4803fd752d47")
+		)
+		(pin "MK_T"
+			(uuid "f1057118-bff4-43cc-a455-f73a17f0489f")
+		)
+		(instances
+			(project ""
+				(path "/39cd98a2-433c-4f66-9e8e-06104f90f664"
+					(reference "MK2T")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

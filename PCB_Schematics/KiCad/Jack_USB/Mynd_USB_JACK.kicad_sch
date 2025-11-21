@@ -1,0 +1,11219 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1f0f583b-4276-4943-8e32-4aad965bdb14")
+	(paper "A3")
+	(title_block
+		(title "Mynd-USB-Jack")
+		(rev "=SCH_REV")
+	)
+	(lib_symbols
+		(symbol "Mynd_USB_JACK-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"GND\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:VBUS_C_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS_C"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"VBUS_C\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_C_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VBUS_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_0_RES1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GPHF SMD RES. 0OHM 1/16W 5% 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*R0402*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_RES1_1_0"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.794 -1.016) (xy 3.302 1.016) (xy 3.81 -1.016) (xy 4.318 1.016) (xy 4.826 -1.016)
+						(xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_0_Teufel NoLogo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel PCB NoLogo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_NoLogo*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_0_Teufel_ASM_Label"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel_ASM_Rev"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_ASM_Rev*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Teufel_ASM_Label_1_0"
+				(text "ASM_Rev"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_0_Teufel_Copyright"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel_Copyright_Year"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TEUFEL_COPYRIGHT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Teufel_Copyright_1_0"
+				(text "Copyright_Year"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_0_Teufel_PCB_Label"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel_PCB_Label"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_PCB_Rev*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Teufel_PCB_Label_1_0"
+				(text "PCB_Rev"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_0_mirrored_USB_TYPE_C_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD USB JACK 24P TID VERIFY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*USB_TYPE_C_HC_0768*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_USB_TYPE_C_3_1_0"
+				(rectangle
+					(start 0 0)
+					(end -22.86 -81.28)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -71.12 180)
+					(length 5.08)
+					(name "GND0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -53.34 180)
+					(length 5.08)
+					(name "SSR_XN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -50.8 180)
+					(length 5.08)
+					(name "SSR_XP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -73.66 180)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -43.18 180)
+					(length 5.08)
+					(name "SST_XP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -45.72 180)
+					(length 5.08)
+					(name "SST_XN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.24 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -33.02 180)
+					(length 5.08)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -30.48 180)
+					(length 5.08)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -22.86 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 5.08)
+					(name "VBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -76.2 180)
+					(length 5.08)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -68.58 180)
+					(length 5.08)
+					(name "SSR_XN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -66.04 180)
+					(length 5.08)
+					(name "SSR_XP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -78.74 180)
+					(length 5.08)
+					(name "GND3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -58.42 180)
+					(length 5.08)
+					(name "SST_XP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -60.96 180)
+					(length 5.08)
+					(name "SST_XN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 5.08)
+					(name "VBUS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -17.78 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -35.56 180)
+					(length 5.08)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -38.1 180)
+					(length 5.08)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -25.4 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 5.08)
+					(name "VBUS4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -78.74 0)
+					(length 5.08)
+					(name "Shield1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -76.2 0)
+					(length 5.08)
+					(name "Shield2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -73.66 0)
+					(length 5.08)
+					(name "Shield3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -71.12 0)
+					(length 5.08)
+					(name "Shield4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_1_CAP1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PSHF SMD CAP 470pF 50V 10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*C0603X80*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_CAP1_1_0"
+				(polyline
+					(pts
+						(xy -1.016 3.302) (xy 1.016 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 4.318) (xy 1.016 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_1_RES1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD THICK FILM RES. 0Ohm 1/16W 1% 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*R0402*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_RES1_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.016 2.794) (xy -1.016 3.302) (xy 1.016 3.81) (xy -1.016 4.318) (xy 1.016 4.826)
+						(xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_1_mirrored_DIODE_BID_ESD2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD TVS 2P 5.5 DFN1006 CESD0501CU CTE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DFN2_100X60X50_65*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_mirrored_DIODE_BID_ESD2_1_0"
+				(polyline
+					(pts
+						(xy -1.016 3.81) (xy -1.27 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.302) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 3.81) (xy -1.016 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 3.81) (xy 1.27 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0.762 2.54) (xy -0.762 2.54) (xy 0 3.556)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.064) (xy -0.762 5.08) (xy 0.762 5.08) (xy 0 4.064)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_1_mirrored_DIODE_TVS1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD TVS 2P 26 SOD-123FL SMF26AL JJW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOD-123FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_mirrored_DIODE_TVS1_1_0"
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -1.27 4.572) (xy -1.016 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 1.27 5.588) (xy 1.016 5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 1.016 2.54) (xy -1.016 2.54) (xy 0 5.08)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "K"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_2_CON 2X5P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD WTB CONNECTOR 10P P2.0mm TIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*WB200AW_2x5P*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_CON 2X5P_1_0"
+				(rectangle
+					(start 0 15.24)
+					(end -10.16 0)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 10.16 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 12.7 180)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_2_TP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TP120*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_TP_1_0"
+				(circle
+					(center -3.81 0)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_2_mirrored_CET9070F-701"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "COMMON MODE COIL 90Ohm 100MHz 400mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CET2012D*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_mirrored_CET9070F-701_1_0"
+				(polyline
+					(pts
+						(xy 2.54 2.286) (xy 7.62 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.794) (xy 7.62 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 3.9201 4.1315)
+					(end 4.311 5.7598)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.311 -0.6798)
+					(mid 3.9201 0.9485)
+					(end 2.5401 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.325 5.7598)
+					(mid 5.08 4.0641)
+					(end 5.835 5.7598)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.835 -0.6798)
+					(mid 5.08 1.0159)
+					(end 4.325 -0.6798)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.849 5.7598)
+					(mid 6.2399 4.1315)
+					(end 7.6199 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 6.2399 0.9485)
+					(end 5.849 -0.6798)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_2_mirrored_INDUCTOR_CM_2_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GPCOMMON MODE COIL 700Ohm 100MHz 125V 4A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DU_IND_SMD_SCM7060*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_mirrored_INDUCTOR_CM_2_1_1_0"
+				(polyline
+					(pts
+						(xy 2.54 1.016) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.524) (xy 7.62 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.9201 -0.9485)
+					(end 4.311 0.6798)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.311 1.8602)
+					(mid 3.9201 3.4885)
+					(end 2.5401 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.325 0.6798)
+					(mid 5.08 -1.0159)
+					(end 5.835 0.6798)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.835 1.8602)
+					(mid 5.08 3.5559)
+					(end 4.325 1.8602)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.849 0.6798)
+					(mid 6.2399 -0.9485)
+					(end 7.6199 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 2.54)
+					(mid 6.2399 3.4885)
+					(end 5.849 1.8602)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_2_mirrored_TP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TP120*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_mirrored_TP_1_0"
+				(circle
+					(center 3.81 0)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_3_CAP1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GPHF SMD M CAP 100nF 50V ±10% 0603 X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*C0603X100*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_CAP1_1_0"
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -4.318) (xy -1.016 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.302) (xy -1.016 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_USB_JACK-altium-import:root_3_mirrored_DIODE_BID_ESD2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD TVS 2P 5.5 DFN1006 CESD0501CU CTE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DFN2_100X60X50_65*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_mirrored_DIODE_BID_ESD2_1_0"
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy -1.27 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 1.016 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.81) (xy 1.27 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.064) (xy 0.762 -5.08) (xy -0.762 -5.08) (xy 0 -4.064)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.556) (xy -0.762 -2.54) (xy 0.762 -2.54) (xy 0 -3.556)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 185.42 98.8822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01244efc-d5a8-4a43-adf1-171cc5de0ce5")
+	)
+	(junction
+		(at 137.16 149.6822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0284fe95-fac4-4bfe-8784-31df985f160f")
+	)
+	(junction
+		(at 144.78 138.2522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0840fa97-98db-4a7b-a091-64198db4bb7b")
+	)
+	(junction
+		(at 241.3 205.5622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c16302f-9dbf-4e30-97dc-a74e75ea67f7")
+	)
+	(junction
+		(at 91.44 187.7822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dcb3f33-2eb3-48f0-833f-cedabfc80ceb")
+	)
+	(junction
+		(at 208.28 76.0222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e1afaf0-b137-41b9-940b-ff18c198ffda")
+	)
+	(junction
+		(at 170.18 109.0422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f4fafee-cd4b-4a25-9eb3-a404eb051d56")
+	)
+	(junction
+		(at 170.18 159.8422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130278ee-f9db-4c5f-bbc4-dbb044b29920")
+	)
+	(junction
+		(at 170.18 119.2022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16b1d7b0-d743-48ca-8b68-bf15f2a081ad")
+	)
+	(junction
+		(at 170.18 98.8822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1908e3f7-4515-4ce2-9ec4-645fefab6f1c")
+	)
+	(junction
+		(at 162.56 180.1622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ed93b1c-bccd-4df1-93e2-69a71471f62f")
+	)
+	(junction
+		(at 144.78 192.8622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37225ab3-14f0-454e-92e1-0951a21d1e32")
+	)
+	(junction
+		(at 132.08 119.2022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37807641-fb88-4aae-9e59-2c0f5f44b937")
+	)
+	(junction
+		(at 279.4 200.4822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44810c23-5173-4ea6-9245-587743ec48e7")
+	)
+	(junction
+		(at 251.46 205.5622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a613e1d-60dd-4237-9560-22b44627f301")
+	)
+	(junction
+		(at 144.78 185.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "506e4e65-136b-446b-a3aa-61605bb067e6")
+	)
+	(junction
+		(at 167.64 88.7222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "553c3c27-e2e9-4a67-87b6-7ec83708122f")
+	)
+	(junction
+		(at 170.18 138.2522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5afc6b4c-d977-4a2f-bece-965a721f43d1")
+	)
+	(junction
+		(at 246.38 197.9422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6ee53a-2589-4267-97d6-00bfb9603574")
+	)
+	(junction
+		(at 162.56 159.8422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e46245a-3d6a-4717-967d-8a8e63ff46df")
+	)
+	(junction
+		(at 137.16 200.4822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64531ad2-9b5e-49a3-9526-4dc56d71ffb9")
+	)
+	(junction
+		(at 187.96 88.7222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aff5764-3dea-4e9c-b3eb-d3cf8f099542")
+	)
+	(junction
+		(at 91.44 190.3222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7304371e-fa23-48a4-8f26-455bf4634bda")
+	)
+	(junction
+		(at 185.42 119.2022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e8293a8-eec7-4271-afa5-f38e185a637a")
+	)
+	(junction
+		(at 241.3 203.0222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dcdd5ae-7099-4d40-b0d7-281130bdc3fa")
+	)
+	(junction
+		(at 170.18 180.1622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "917ff0b5-eddb-4d4b-ba0a-aacad566f436")
+	)
+	(junction
+		(at 170.18 128.0922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "944a09b1-3098-49b5-a4bc-61d9beb887f8")
+	)
+	(junction
+		(at 177.8 88.7222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d1d4645-4e76-44da-87b6-b63be966f2be")
+	)
+	(junction
+		(at 144.78 200.4822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ed39c5e-8b84-45fd-b5b0-06e156a4755e")
+	)
+	(junction
+		(at 177.8 76.0222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4589f66-5735-41a0-93d5-19484478b7b3")
+	)
+	(junction
+		(at 185.42 109.0422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a49918aa-1f7f-4daf-ae72-8783cc0cfaea")
+	)
+	(junction
+		(at 144.78 187.7822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6890c46-929a-4518-b4cb-74d285eca31f")
+	)
+	(junction
+		(at 144.78 190.3222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b77c3100-7773-48c3-8adf-595cf15dc40d")
+	)
+	(junction
+		(at 99.06 200.4822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9c1c16f-ed79-457c-b560-dbbfaaa0ccc5")
+	)
+	(junction
+		(at 241.3 195.4022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba3b1b10-0cc1-422c-8e48-1f0f1d4079ef")
+	)
+	(junction
+		(at 91.44 192.8622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bce88325-cf31-434e-b8e0-9a9abf59b0c2")
+	)
+	(junction
+		(at 279.4 205.5622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf418475-1740-45e2-8a38-58aa4aae6828")
+	)
+	(junction
+		(at 198.12 76.0222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c82d69b6-ee30-44f0-8c60-a852af30e5bd")
+	)
+	(junction
+		(at 208.28 88.7222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb5daba9-a21c-4193-b735-d804dc3380f5")
+	)
+	(junction
+		(at 190.5 167.4622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd114281-b862-4a72-a638-cbfec775b1ed")
+	)
+	(junction
+		(at 162.56 170.0022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1c8f8b3-ca7b-4ff6-bfea-d4e8efea9d72")
+	)
+	(junction
+		(at 91.44 200.4822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d1f6e2-aaa7-49ef-900a-c596ba7fbb82")
+	)
+	(junction
+		(at 167.64 76.0222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4f06c9b-304f-4f0d-8edf-4b25fd419071")
+	)
+	(junction
+		(at 241.3 200.4822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d75da3a8-d1af-41a9-a395-8f53af3f6b66")
+	)
+	(junction
+		(at 139.7 152.2222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc1cac0d-fcc1-41ac-99e1-428dbce8573b")
+	)
+	(junction
+		(at 279.4 203.0222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0b2fc6e-c035-408e-8c9b-7dd563a18616")
+	)
+	(junction
+		(at 132.08 121.7422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f36f2626-12aa-4d83-9fb8-548e0696093e")
+	)
+	(junction
+		(at 187.96 76.0222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5db62ca-6f47-4665-893e-4531d79f8d21")
+	)
+	(junction
+		(at 190.5 172.5422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa64b9b2-54a9-4ecf-87e4-ddda62afff11")
+	)
+	(junction
+		(at 198.12 88.7222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb4dd0c3-febe-4b98-a693-d8d334011b37")
+	)
+	(junction
+		(at 132.08 116.6622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde878d2-006b-44d7-ba8f-0733ff9333df")
+	)
+	(junction
+		(at 170.18 148.4122)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff516de-a2b3-4c16-9ec2-ca0229bdd216")
+	)
+	(no_connect
+		(at 129.54 172.5422)
+		(uuid "09342485-dac3-4afb-a051-479ab328a8ab")
+	)
+	(no_connect
+		(at 129.54 175.0822)
+		(uuid "204e93e7-b6ed-4c59-8dd4-a99513c986f2")
+	)
+	(no_connect
+		(at 129.54 164.9222)
+		(uuid "34e4e0b0-e138-45d3-9b2a-f27d1a8fbed6")
+	)
+	(no_connect
+		(at 129.54 157.3022)
+		(uuid "54cb5582-9550-470c-8278-e96ebfbad4dc")
+	)
+	(no_connect
+		(at 129.54 159.8422)
+		(uuid "85f70ec3-475c-417c-814c-0fb581b456c2")
+	)
+	(no_connect
+		(at 129.54 180.1622)
+		(uuid "cbe06f68-9050-4d21-be33-04de173b3885")
+	)
+	(no_connect
+		(at 129.54 167.4622)
+		(uuid "cc404326-3982-476f-a654-57eec0dfd84e")
+	)
+	(no_connect
+		(at 129.54 182.7022)
+		(uuid "fedd5970-bb9d-4bcd-bc18-ab46dc5b4c8a")
+	)
+	(wire
+		(pts
+			(xy 132.08 124.2822) (xy 132.08 121.7422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04158034-ec94-40de-9539-8085e5999bde")
+	)
+	(wire
+		(pts
+			(xy 208.28 76.0222) (xy 208.28 78.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047cc06b-7fe3-43f3-a9a6-3411d29ec118")
+	)
+	(wire
+		(pts
+			(xy 162.56 180.1622) (xy 137.16 180.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bb1495-26e3-4bd8-a732-ee7ab1f58b12")
+	)
+	(wire
+		(pts
+			(xy 132.08 121.7422) (xy 132.08 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c2b586-cd05-4473-8927-c87a7c5c89db")
+	)
+	(wire
+		(pts
+			(xy 185.42 140.7922) (xy 177.8 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0612bf57-6c71-4ead-bf21-482f7cc4dff2")
+	)
+	(wire
+		(pts
+			(xy 129.54 192.8622) (xy 144.78 192.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098143b8-c452-4ac6-a3be-641a182ef94b")
+	)
+	(wire
+		(pts
+			(xy 177.8 148.4122) (xy 170.18 148.4122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b045375-b52b-4233-a0f2-9cf29e521cfd")
+	)
+	(wire
+		(pts
+			(xy 241.3 203.0222) (xy 218.44 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f093f28-ca7f-4313-a8e1-be880b2d5904")
+	)
+	(wire
+		(pts
+			(xy 170.18 119.2022) (xy 185.42 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7d8944-4054-46b9-9782-ddf2c84e5311")
+	)
+	(wire
+		(pts
+			(xy 132.08 116.6622) (xy 132.08 81.1022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111360dd-b858-48ed-bfe9-52d34f61e43f")
+	)
+	(wire
+		(pts
+			(xy 176.53 159.8422) (xy 170.18 159.8422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116056d4-a752-4939-b83e-2287bd328865")
+	)
+	(wire
+		(pts
+			(xy 129.54 144.6022) (xy 139.7 144.6022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132c5578-8072-4181-8a4b-538f385a50cb")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.7222) (xy 198.12 88.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14452c7f-b737-4426-bf3c-c619e4c84cdd")
+	)
+	(wire
+		(pts
+			(xy 99.06 200.4822) (xy 137.16 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a42a34-0ec3-40e2-9c4e-98c191dcabba")
+	)
+	(wire
+		(pts
+			(xy 256.54 197.9422) (xy 246.38 197.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1696d00e-5e98-4b1a-942e-2b58480aa73b")
+	)
+	(wire
+		(pts
+			(xy 132.08 119.2022) (xy 132.08 116.6622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173205e9-a65b-4424-a38e-9fec206fec9a")
+	)
+	(wire
+		(pts
+			(xy 170.18 135.7122) (xy 170.18 138.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1861db66-dd0b-44b2-80cc-c38e0025439c")
+	)
+	(wire
+		(pts
+			(xy 177.8 140.7922) (xy 177.8 148.4122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd4802f-6bbf-4e12-b3ed-e472c6468360")
+	)
+	(wire
+		(pts
+			(xy 271.78 197.9422) (xy 294.64 197.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c34e0ba-e6cd-4ee6-85fc-331c1376987e")
+	)
+	(wire
+		(pts
+			(xy 185.42 172.5422) (xy 190.5 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db8ea7c-a5d2-442a-b528-49e3406a5cca")
+	)
+	(wire
+		(pts
+			(xy 198.12 76.0222) (xy 198.12 78.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2218dcf0-159b-444a-b6a3-8ecf76125b00")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.7222) (xy 177.8 86.1822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2535f2ac-6f1e-4f58-890f-73b679e7a8e2")
+	)
+	(wire
+		(pts
+			(xy 228.6 190.3222) (xy 228.6 195.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ce5c8e-fb7a-4623-8d26-a183b120c35b")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.0222) (xy 167.64 78.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2768bcac-f40b-499a-9318-79e13332c7e6")
+	)
+	(wire
+		(pts
+			(xy 137.16 129.3622) (xy 137.16 98.8822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2799bea8-c98f-4d7a-8f7b-889d94a170dc")
+	)
+	(wire
+		(pts
+			(xy 309.88 205.5622) (xy 279.4 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28255211-70eb-4d79-ad6b-3be7a30b0d16")
+	)
+	(wire
+		(pts
+			(xy 190.5 180.1622) (xy 190.5 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a407364-cea8-4466-b5b3-1e229c8365f0")
+	)
+	(wire
+		(pts
+			(xy 144.78 192.8622) (xy 144.78 190.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5bbfc5-fe43-4f01-805a-711720955687")
+	)
+	(polyline
+		(pts
+			(xy 317.5 291.9222) (xy 317.5 266.5222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2c7f8520-f992-4c4d-89b4-181df09de745")
+	)
+	(wire
+		(pts
+			(xy 157.48 135.7122) (xy 137.16 135.7122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6db1b5-004d-4a8f-989f-bbc6a69ceb2b")
+	)
+	(polyline
+		(pts
+			(xy 317.5 286.8422) (xy 388.62 286.8422)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "349a7be0-4da9-4073-a67f-6381f5c40acb")
+	)
+	(wire
+		(pts
+			(xy 302.26 195.4022) (xy 302.26 190.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378ab518-ec14-4aaa-917d-37ac47800a34")
+	)
+	(wire
+		(pts
+			(xy 91.44 218.2622) (xy 91.44 215.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385d13cf-1b46-4d8e-949e-57353be911f3")
+	)
+	(wire
+		(pts
+			(xy 241.3 205.5622) (xy 251.46 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38af2956-e76a-4330-a395-a50c6a254990")
+	)
+	(wire
+		(pts
+			(xy 251.46 210.6422) (xy 251.46 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8b4cda-7ddd-48c0-b484-36a53c829d29")
+	)
+	(wire
+		(pts
+			(xy 162.56 170.0022) (xy 162.56 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bdb2d20-05ee-42a5-b52e-6fdbf8a355f7")
+	)
+	(wire
+		(pts
+			(xy 157.48 83.6422) (xy 154.94 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd27739-b7ce-4732-901a-d033793c0403")
+	)
+	(wire
+		(pts
+			(xy 185.42 109.0422) (xy 185.42 106.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1b9a94-fd4c-4247-bd27-1e60cee03725")
+	)
+	(wire
+		(pts
+			(xy 184.15 180.1622) (xy 190.5 180.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41526795-7e23-4119-912a-1f63d3e9a572")
+	)
+	(wire
+		(pts
+			(xy 184.15 159.8422) (xy 190.5 159.8422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42761121-050b-4fe2-ab7b-e515b4763e43")
+	)
+	(wire
+		(pts
+			(xy 193.04 140.7922) (xy 208.28 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435da86a-4548-4216-9088-96a4ded8b98d")
+	)
+	(wire
+		(pts
+			(xy 177.8 76.0222) (xy 187.96 76.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ecf890-7e33-4af2-9c6b-dbf0760df35f")
+	)
+	(wire
+		(pts
+			(xy 175.26 172.5422) (xy 170.18 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470e6e76-05f3-4f28-9e4d-7a1ae7132090")
+	)
+	(wire
+		(pts
+			(xy 139.7 131.9022) (xy 139.7 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476679f5-26e5-470b-aa67-1663a21b58d6")
+	)
+	(wire
+		(pts
+			(xy 144.78 138.2522) (xy 170.18 138.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484a66df-4a9b-4681-9f9e-029e310b271d")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.2022) (xy 132.08 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d3eb0f-4e9a-4b36-b862-81556a7968fc")
+	)
+	(polyline
+		(pts
+			(xy 317.5 266.5222) (xy 388.62 266.5222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4a7208f0-7029-4969-9e02-e6c319c6763e")
+	)
+	(wire
+		(pts
+			(xy 228.6 195.4022) (xy 241.3 195.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8d30ac-bc22-4a24-af4c-104f093381ec")
+	)
+	(wire
+		(pts
+			(xy 170.18 109.0422) (xy 170.18 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6505a2-cc5d-496d-9776-11c7552794f1")
+	)
+	(wire
+		(pts
+			(xy 162.56 167.4622) (xy 162.56 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5057f1d7-4187-49ab-956f-8b450c430a55")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.1022) (xy 144.78 81.1022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509e120f-aef7-4e17-9c8b-33a56f841933")
+	)
+	(wire
+		(pts
+			(xy 185.42 167.4622) (xy 190.5 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f9736c-e88c-46a4-bb2b-0cb51a8ef725")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.7222) (xy 208.28 88.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5950687f-abf6-42c3-aeed-adeaa7c64112")
+	)
+	(wire
+		(pts
+			(xy 96.52 187.7822) (xy 91.44 187.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d42812-e3c6-4b67-a3ef-d07a60ea068b")
+	)
+	(wire
+		(pts
+			(xy 190.5 159.8422) (xy 190.5 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d65ec9a-40cd-4fa9-b69b-f2437204a291")
+	)
+	(wire
+		(pts
+			(xy 279.4 203.0222) (xy 271.78 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbf5fea-0daa-493e-ab40-93e2f09709a5")
+	)
+	(wire
+		(pts
+			(xy 139.7 119.2022) (xy 170.18 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2eba22-9077-4ce6-a088-f7d5404aac16")
+	)
+	(wire
+		(pts
+			(xy 91.44 208.1022) (xy 91.44 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7ae79e-1c0e-444f-a648-9bcb40b2f0e5")
+	)
+	(polyline
+		(pts
+			(xy 317.5 279.2222) (xy 388.62 279.2222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "60207080-2112-4b47-9a47-663f8af98374")
+	)
+	(wire
+		(pts
+			(xy 137.16 200.4822) (xy 144.78 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619c6d30-b9e0-4cc3-8249-b848b942ba09")
+	)
+	(wire
+		(pts
+			(xy 99.06 218.2622) (xy 99.06 215.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634aab17-5f11-47d2-925e-dfe3f4c9ee1f")
+	)
+	(wire
+		(pts
+			(xy 129.54 124.2822) (xy 132.08 124.2822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f8f5ac-556d-4ba3-be27-7205830d9467")
+	)
+	(wire
+		(pts
+			(xy 208.28 88.7222) (xy 208.28 86.1822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6642c354-ebbe-4e8b-ba6b-a46819ef9c54")
+	)
+	(polyline
+		(pts
+			(xy 317.5 266.5222) (xy 317.5 241.1222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "69126c88-fefa-4e38-87ea-690681199824")
+	)
+	(wire
+		(pts
+			(xy 279.4 205.5622) (xy 271.78 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac16bd5-cde5-42e2-9d18-6341087f6610")
+	)
+	(wire
+		(pts
+			(xy 170.18 180.1622) (xy 162.56 180.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac98b3e-9c91-4628-be5f-360ad6a8db37")
+	)
+	(wire
+		(pts
+			(xy 139.7 144.6022) (xy 139.7 152.2222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b188b67-42e3-4300-a47b-75c5a5e07abe")
+	)
+	(polyline
+		(pts
+			(xy 317.5 284.3022) (xy 388.62 284.3022)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6ca719c4-f032-452f-ba96-f9a55053e95d")
+	)
+	(wire
+		(pts
+			(xy 144.78 190.3222) (xy 144.78 187.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc3751d-9595-4d91-bd77-968e8e891dd7")
+	)
+	(wire
+		(pts
+			(xy 193.04 119.2022) (xy 193.04 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbe80a5-752f-4b16-a5bd-984b9adc2dfa")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.1822) (xy 167.64 88.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd41cd7-8a6e-4812-85d4-edd8b06508b6")
+	)
+	(wire
+		(pts
+			(xy 129.54 116.6622) (xy 132.08 116.6622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d7235f-1e30-4561-b450-4bd31c66c654")
+	)
+	(wire
+		(pts
+			(xy 96.52 192.8622) (xy 91.44 192.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d7baae-dc3d-4ae4-bea5-446fcb2f0652")
+	)
+	(wire
+		(pts
+			(xy 137.16 149.6822) (xy 137.16 147.1422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750b2f4f-6abd-431e-945c-f0b313df165c")
+	)
+	(wire
+		(pts
+			(xy 139.7 159.8422) (xy 162.56 159.8422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e08935-36e1-4093-873f-a6b762c7bc1c")
+	)
+	(wire
+		(pts
+			(xy 170.18 159.8422) (xy 170.18 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760ad824-03b1-4c87-9652-f1da7898d54e")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.0222) (xy 177.8 76.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7818803a-de3b-4119-8ae6-a8c6efd8fdb1")
+	)
+	(wire
+		(pts
+			(xy 129.54 131.9022) (xy 139.7 131.9022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a63e8b3-1a1a-4ff3-82a3-9b2288deb00e")
+	)
+	(wire
+		(pts
+			(xy 144.78 185.2422) (xy 144.78 138.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a70d347-718d-4a17-9494-42b492ff2446")
+	)
+	(polyline
+		(pts
+			(xy 317.5 281.7622) (xy 388.62 281.7622)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7d2d66a8-ac28-4d6a-8f3c-3f0cd53e77e5")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.7222) (xy 177.8 88.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd3c042-5b1c-494f-ab6e-b7c29b910ca3")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.0422) (xy 170.18 109.0422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e203da1-0e91-44ec-baf9-ac2487c790d7")
+	)
+	(wire
+		(pts
+			(xy 157.48 128.0922) (xy 157.48 135.7122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef81371-0839-4172-ae1b-a5df91608608")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.0222) (xy 157.48 76.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84296ecd-edda-417a-b67b-3041d5865989")
+	)
+	(wire
+		(pts
+			(xy 241.3 195.4022) (xy 256.54 195.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85130223-5f38-41f5-aa3d-d07810297a19")
+	)
+	(wire
+		(pts
+			(xy 144.78 138.2522) (xy 144.78 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a65a29-703c-432e-8507-5cd32e5f85e7")
+	)
+	(wire
+		(pts
+			(xy 157.48 148.4122) (xy 157.48 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872fe599-ff53-4fba-b5e3-d5ea2b175285")
+	)
+	(wire
+		(pts
+			(xy 246.38 197.9422) (xy 241.3 197.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac7a6b0-bcfb-4554-b5d3-2d7b25f93bc5")
+	)
+	(wire
+		(pts
+			(xy 193.04 135.7122) (xy 208.28 135.7122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b223754-ef84-47e8-9ccc-d5c1cec63714")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.1022) (xy 154.94 81.1022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2f756f-d5f5-4e3c-b96f-3e4f7f7d3770")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.2022) (xy 193.04 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc620f4-486a-4134-87c8-ca78ada7009b")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.7222) (xy 157.48 88.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed94554-7c91-461e-bf35-be63afcb2702")
+	)
+	(wire
+		(pts
+			(xy 294.64 197.9422) (xy 294.64 218.2622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f07d5ac-c7c1-47d2-8822-56d533f5b76f")
+	)
+	(wire
+		(pts
+			(xy 96.52 190.3222) (xy 91.44 190.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6e649e-dfc4-469e-8fd6-ad30aa84a76c")
+	)
+	(wire
+		(pts
+			(xy 187.96 76.0222) (xy 198.12 76.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949f6453-9b4e-45dc-822b-ccc997452ad2")
+	)
+	(wire
+		(pts
+			(xy 193.04 98.8822) (xy 193.04 106.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94feda6a-4316-4b31-8726-0de5cb693b0f")
+	)
+	(wire
+		(pts
+			(xy 96.52 185.2422) (xy 91.44 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966d5d2e-ef77-4102-8214-b4917d8cff34")
+	)
+	(wire
+		(pts
+			(xy 91.44 187.7822) (xy 91.44 190.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c2c39b-2ff1-4422-b778-2f85e314eb56")
+	)
+	(wire
+		(pts
+			(xy 279.4 200.4822) (xy 271.78 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984a7554-42f0-4d53-93b5-64df46e8e596")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.5622) (xy 177.8 76.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac2ddab-ee8a-4762-9ae5-508baae0b244")
+	)
+	(wire
+		(pts
+			(xy 157.48 140.7922) (xy 137.16 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e089b71-8620-42b4-8744-f45020e79cfd")
+	)
+	(wire
+		(pts
+			(xy 162.56 159.8422) (xy 170.18 159.8422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8c4162-e63f-4bfb-a019-a4ef8168d5a5")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.7222) (xy 198.12 86.1822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f25b2dc-090c-40c4-bd99-f77ca50f325c")
+	)
+	(wire
+		(pts
+			(xy 193.04 106.5022) (xy 208.28 106.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9586cb-70aa-4eb9-8b43-62c588a8c519")
+	)
+	(wire
+		(pts
+			(xy 190.5 167.4622) (xy 208.28 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e2ab0f-62e8-4e5b-9f11-eadc3c4de2dd")
+	)
+	(wire
+		(pts
+			(xy 144.78 187.7822) (xy 129.54 187.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27f0846-af68-4518-a381-02e9101bc894")
+	)
+	(wire
+		(pts
+			(xy 170.18 148.4122) (xy 157.48 148.4122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a410efc0-247b-464b-a90f-2a6c5befffd3")
+	)
+	(wire
+		(pts
+			(xy 137.16 140.7922) (xy 137.16 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50c30c1-4126-45da-828f-0416706f9b4b")
+	)
+	(wire
+		(pts
+			(xy 99.06 208.1022) (xy 99.06 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75d84c6-5da3-4871-a5aa-5c3d250486af")
+	)
+	(wire
+		(pts
+			(xy 309.88 203.0222) (xy 279.4 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85ac3e5-637f-425c-a1f9-7f6205e46ceb")
+	)
+	(wire
+		(pts
+			(xy 190.5 172.5422) (xy 208.28 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d2b1c9-a644-4efb-a896-7662d760be2d")
+	)
+	(wire
+		(pts
+			(xy 129.54 190.3222) (xy 144.78 190.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa107030-3caf-4a18-a674-3c775f28cdad")
+	)
+	(wire
+		(pts
+			(xy 137.16 98.8822) (xy 170.18 98.8822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9981d1-dc7d-4d42-a1ea-143f51cefa51")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.7222) (xy 187.96 88.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab39d36d-b133-45c5-ae01-88378280655d")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.7222) (xy 187.96 86.1822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdbcf91-9bd3-4ed4-abf8-0c4ce8ed2d76")
+	)
+	(wire
+		(pts
+			(xy 309.88 200.4822) (xy 279.4 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac210efc-0a00-431d-8cef-7d70649827e0")
+	)
+	(wire
+		(pts
+			(xy 129.54 121.7422) (xy 132.08 121.7422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff001f7-e785-40f0-a6e7-08b6f1554939")
+	)
+	(wire
+		(pts
+			(xy 170.18 167.4622) (xy 175.26 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2acf707-283c-46c9-96b9-4d3011650123")
+	)
+	(wire
+		(pts
+			(xy 177.8 135.7122) (xy 177.8 128.0922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bc3001-9d40-41da-a06f-b6825a9106e1")
+	)
+	(wire
+		(pts
+			(xy 187.96 76.0222) (xy 187.96 78.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6aa4b8f-c3af-4048-9118-9c0e3a5edde6")
+	)
+	(wire
+		(pts
+			(xy 91.44 185.2422) (xy 91.44 187.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e9716b-cf16-40d7-9c94-b91d29cc961c")
+	)
+	(wire
+		(pts
+			(xy 170.18 128.0922) (xy 157.48 128.0922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a028bf-899c-4f6b-91ae-6d7177b61986")
+	)
+	(wire
+		(pts
+			(xy 241.3 200.4822) (xy 256.54 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4c2d36-1e75-42c2-b824-bd1f09b32540")
+	)
+	(wire
+		(pts
+			(xy 256.54 203.0222) (xy 241.3 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd655ff4-8c01-4a10-872e-2b6988d9c07c")
+	)
+	(wire
+		(pts
+			(xy 157.48 76.0222) (xy 157.48 81.1022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf794fce-85ab-4f81-9ffc-45144d77396a")
+	)
+	(wire
+		(pts
+			(xy 137.16 139.5222) (xy 129.54 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c2c540-dbb8-4a81-9017-556139b80dee")
+	)
+	(wire
+		(pts
+			(xy 137.16 136.9822) (xy 129.54 136.9822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e08dbf-3618-47bf-b6db-81d507fff6e4")
+	)
+	(wire
+		(pts
+			(xy 218.44 200.4822) (xy 241.3 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15955e0-d018-4d3e-8329-e51cd81e087f")
+	)
+	(wire
+		(pts
+			(xy 198.12 76.0222) (xy 208.28 76.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c159e92c-47a1-477b-867e-3a1e038e1e69")
+	)
+	(polyline
+		(pts
+			(xy 368.3 291.9222) (xy 368.3 284.3022)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c4ab90dd-b883-4d8f-afe2-b2bc264ba0d8")
+	)
+	(wire
+		(pts
+			(xy 144.78 208.1022) (xy 144.78 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e90864-6ffb-4ced-aa70-ef376396e550")
+	)
+	(wire
+		(pts
+			(xy 139.7 152.2222) (xy 139.7 159.8422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5720e78-34e5-4cda-b89e-44bd915a9180")
+	)
+	(wire
+		(pts
+			(xy 144.78 185.2422) (xy 144.78 187.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86e7e40-82da-460b-a891-34dab293f06e")
+	)
+	(wire
+		(pts
+			(xy 144.78 200.4822) (xy 144.78 192.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fe10da-7cb5-4e8c-8907-d1bc9d8d816f")
+	)
+	(wire
+		(pts
+			(xy 144.78 218.2622) (xy 144.78 215.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca94052f-870c-4668-825a-e775fd93c9b4")
+	)
+	(wire
+		(pts
+			(xy 246.38 218.2622) (xy 246.38 197.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbb0a72-4df4-4b2f-a749-ccbb01e15de1")
+	)
+	(wire
+		(pts
+			(xy 170.18 180.1622) (xy 176.53 180.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6f41ce-a66d-40ab-bf35-d83183063925")
+	)
+	(wire
+		(pts
+			(xy 129.54 149.6822) (xy 137.16 149.6822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee29c5e-2cfe-4da4-942b-12230e598e05")
+	)
+	(wire
+		(pts
+			(xy 170.18 106.5022) (xy 170.18 109.0422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4dd7c43-2f77-47a5-8923-2c064a07a0a8")
+	)
+	(wire
+		(pts
+			(xy 177.8 128.0922) (xy 170.18 128.0922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82532b4-1dd9-43f6-80f6-b747045da1db")
+	)
+	(wire
+		(pts
+			(xy 185.42 135.7122) (xy 177.8 135.7122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a92149-4630-4212-8f5f-e3e14c0ad162")
+	)
+	(wire
+		(pts
+			(xy 157.48 88.7222) (xy 157.48 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bfda92-27ed-45f7-8ca5-fa1b4a3bf1e4")
+	)
+	(wire
+		(pts
+			(xy 241.3 205.5622) (xy 218.44 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9374309-576a-4c56-9219-31321bf4e9b8")
+	)
+	(wire
+		(pts
+			(xy 170.18 109.0422) (xy 185.42 109.0422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc072674-b65e-4e2a-b6ea-87bfec921b75")
+	)
+	(wire
+		(pts
+			(xy 91.44 200.4822) (xy 99.06 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd857719-8a0d-44ea-a95f-33717aae562e")
+	)
+	(wire
+		(pts
+			(xy 137.16 135.7122) (xy 137.16 136.9822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd4265f-3b41-431e-afb9-93633db5a2bc")
+	)
+	(wire
+		(pts
+			(xy 193.04 111.5822) (xy 208.28 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8e5b7e-9fd8-421b-aef5-20c31ea3c7c7")
+	)
+	(wire
+		(pts
+			(xy 129.54 129.3622) (xy 137.16 129.3622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1302601-981b-42fe-9bca-3d295300b5ca")
+	)
+	(wire
+		(pts
+			(xy 279.4 210.6422) (xy 279.4 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13cb2ce-9725-4d35-8491-9222be39aa66")
+	)
+	(wire
+		(pts
+			(xy 185.42 109.0422) (xy 185.42 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3125ec8-c783-4a4a-b615-231fe177c430")
+	)
+	(wire
+		(pts
+			(xy 251.46 205.5622) (xy 256.54 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e675e218-5f80-4a37-83ef-bc989d233963")
+	)
+	(wire
+		(pts
+			(xy 271.78 195.4022) (xy 302.26 195.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77c63a9-57e5-4502-b8da-b88b7a0f3455")
+	)
+	(polyline
+		(pts
+			(xy 317.5 289.3822) (xy 388.62 289.3822)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e8cbcc2b-5afb-4f23-976c-2d022a232ecc")
+	)
+	(wire
+		(pts
+			(xy 137.16 147.1422) (xy 129.54 147.1422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab93251-38e6-449b-8df1-ad3213c874f7")
+	)
+	(wire
+		(pts
+			(xy 137.16 180.1622) (xy 137.16 149.6822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7ee350-9c5a-4da6-b576-005d0f4798ee")
+	)
+	(wire
+		(pts
+			(xy 129.54 152.2222) (xy 139.7 152.2222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed678948-f1ab-4a36-a846-5707734ca179")
+	)
+	(wire
+		(pts
+			(xy 91.44 192.8622) (xy 91.44 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8dd8ee-ff37-468a-b114-c879d46a9486")
+	)
+	(wire
+		(pts
+			(xy 137.16 208.1022) (xy 137.16 200.4822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efaeaf07-6db5-4544-9433-a43aa001dfbb")
+	)
+	(wire
+		(pts
+			(xy 137.16 218.2622) (xy 137.16 215.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b99874-9e9d-47fb-8983-d23385715468")
+	)
+	(wire
+		(pts
+			(xy 185.42 98.8822) (xy 193.04 98.8822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45d22f3-df36-448b-9681-814e9d33dbe4")
+	)
+	(wire
+		(pts
+			(xy 170.18 138.2522) (xy 170.18 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50c72a9-9f5b-4947-8c7f-189f0d64576d")
+	)
+	(wire
+		(pts
+			(xy 129.54 185.2422) (xy 144.78 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95a76dd-3ee0-4dcf-bf05-5dd8e1573f16")
+	)
+	(wire
+		(pts
+			(xy 170.18 172.5422) (xy 170.18 180.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb00ebc-1f6d-4302-83ab-b1cfb67afa95")
+	)
+	(wire
+		(pts
+			(xy 170.18 98.8822) (xy 185.42 98.8822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcda81f-efcd-4128-9d26-a840e7d018f1")
+	)
+	(wire
+		(pts
+			(xy 91.44 190.3222) (xy 91.44 192.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc58bfe3-51cd-4bca-b8ff-c5899b17e53c")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 179.07 60.7822 0)
+		(effects
+			(font
+				(size 4.572 4.572)
+				(thickness 0.9144)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "003a525f-abdd-42f8-aae2-fb6f690ca20e")
+	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 330.2 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "035c6d71-9d9f-401b-b112-6562383d701c")
+	)
+	(text "Revision:"
+		(exclude_from_sim no)
+		(at 318.77 243.6622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ad5c464-1170-407f-a721-5cfe04f17ded")
+	)
+	(text "Mynd Jack USB-In"
+		(exclude_from_sim no)
+		(at 196.85 32.8422 0)
+		(effects
+			(font
+				(size 4.572 4.572)
+				(thickness 0.9144)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "1c28cb21-a5c0-42f2-9dc7-7bb15f764ae2")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 383.54 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1efde1d2-4c3d-47b1-9010-87c5e0c13a18")
+	)
+	(text "Project:"
+		(exclude_from_sim no)
+		(at 320.04 281.7622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "215e13ad-f833-4724-9fc6-584cd1d82ae0")
+	)
+	(text "Budapester Straße 44"
+		(exclude_from_sim no)
+		(at 358.14 272.8722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c3b7012-0ecb-463a-a485-39d9c23f0a6a")
+	)
+	(text "Page Title:"
+		(exclude_from_sim no)
+		(at 320.04 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3797f3ec-dc57-4ec3-a126-82df0b48a7b2")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 330.2 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f738e5b-ad32-40c6-ae9a-fd6d47dcf789")
+	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 182.88 180.1622 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "481b3b33-37fe-4d53-bd1c-96bba673ce0f")
+	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 254 218.2622 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "573076cb-bfb1-4e94-95d8-60d1d53f8328")
+	)
+	(text "File Name:"
+		(exclude_from_sim no)
+		(at 320.04 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59d48284-d4f0-426a-89e8-54855b750264")
+	)
+	(text "Date:"
+		(exclude_from_sim no)
+		(at 370.84 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e157255-cc89-4ed1-88cb-2517183d654b")
+	)
+	(text "Size:"
+		(exclude_from_sim no)
+		(at 370.84 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61b02e8c-9db7-4d7c-b7e8-944997612a93")
+	)
+	(text "${PROJECTNAME}"
+		(exclude_from_sim no)
+		(at 330.2 281.7622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62dd08b1-ae11-4853-bb03-4d01e4fa64cb")
+	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 281.94 218.2622 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "63b4dc8a-27e9-4f98-ba0b-e9aa6d7c8f9c")
+	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 189.23 105.2322 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "64dcf60c-760e-4042-9f4c-ef51c6fac48c")
+	)
+	(text "of"
+		(exclude_from_sim no)
+		(at 381 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d965244-e60f-4524-8698-8d63f84df311")
+	)
+	(text "modified:"
+		(exclude_from_sim no)
+		(at 365.76 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "712aac26-6f1e-4b23-9148-3f16e249fbb6")
+	)
+	(text "${MODIFIEDDATE}"
+		(exclude_from_sim no)
+		(at 375.92 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7843b02d-eedc-452b-9f41-9aa8a5abc68b")
+	)
+	(text "${REVISION}"
+		(exclude_from_sim no)
+		(at 350.52 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a81e9ce-896d-4eb6-ba46-eaadf69b6c24")
+	)
+	(text "Page:"
+		(exclude_from_sim no)
+		(at 370.84 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90c03ec5-7329-4940-bbd9-8851401e0264")
+	)
+	(text "10787 Berlin"
+		(exclude_from_sim no)
+		(at 358.14 275.4122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "92994c6a-bca1-4d8e-9272-f63f05192553")
+	)
+	(text "USB-C"
+		(exclude_from_sim no)
+		(at 99.06 157.3022 90)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "95d4a99b-4c9d-4d1c-a664-bec6cf84b954")
+	)
+	(text "Version:"
+		(exclude_from_sim no)
+		(at 320.04 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a85c7bdc-b759-4e75-ae80-b53ba4cf2a91")
+	)
+	(text "Rev:"
+		(exclude_from_sim no)
+		(at 345.44 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a890f892-dab8-4079-b566-f94a671afbc9")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 375.92 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aac6b6d9-7698-4d2d-ad70-633f0a2dc904")
+	)
+	(text "Engineer:"
+		(exclude_from_sim no)
+		(at 320.04 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3a5c131-94d5-4adb-bb86-1e43058ba335")
+	)
+	(text "${VERSION}"
+		(exclude_from_sim no)
+		(at 330.2 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca436466-2c07-4c86-9048-c63955b941d2")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 375.92 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d03eb87d-2bb1-4088-95a5-16c8b9269fd9")
+	)
+	(text "Germany"
+		(exclude_from_sim no)
+		(at 358.14 277.9522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1af4de9-0275-46fa-b54b-b81bd7a67dea")
+	)
+	(text "${ENGINEER}"
+		(exclude_from_sim no)
+		(at 330.2 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db21bd0f-5171-4ff7-84e1-7ae365eac60f")
+	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 189.23 116.6622 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1ae83cd-6184-444b-9b02-0c445b46af07")
+	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 182.88 159.8422 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee06a5ff-8321-49dd-b9ec-445149446dfc")
+	)
+	(text "Lautspreecher Teufel GmbH"
+		(exclude_from_sim no)
+		(at 358.14 270.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f622c17d-1da8-4e18-8a82-6a9742ea6323")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 378.46 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6e29961-f859-43e0-b1e5-a8d76128536c")
+	)
+	(label "USB_SBU1"
+		(at 198.12 135.7122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12997407-bcb0-4bd5-8de4-8ea162215445")
+	)
+	(label "USB-CC2"
+		(at 199.39 111.5822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13a9cc78-bec2-4363-ac14-7d45ff47551c")
+	)
+	(label "USB_SBU1"
+		(at 218.44 205.5622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f4880b-64e1-48ae-bb1a-8982f1182ecc")
+	)
+	(label "USB_J_N"
+		(at 198.12 167.4622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "312ac149-8e3f-46e4-9d86-41b947b7612f")
+	)
+	(label "USB_SBU2"
+		(at 299.72 205.5622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44f8c87a-8a12-4e8f-9cd5-390a450a8397")
+	)
+	(label "USB-CC1"
+		(at 218.44 203.0222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ba40cfc-9e9c-4287-bc75-14372568f700")
+	)
+	(label "D2_1_N"
+		(at 152.4 159.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98e39d64-615f-4d2e-ba71-bb6d1ce51b79")
+	)
+	(label "USB_J_N"
+		(at 299.72 200.4822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d453411-dc74-43f3-b77d-14349a23bf17")
+	)
+	(label "D2_1_P"
+		(at 152.4 180.1622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a78bac5e-4406-4b8b-9c51-17b0dad3751c")
+	)
+	(label "USB_J_P"
+		(at 198.12 172.5422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a792f80c-8060-4cac-afee-55c35eadc3d7")
+	)
+	(label "USB-CC2"
+		(at 299.72 203.0222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdc0249c-6b90-4378-bb82-83ad0cdadf9d")
+	)
+	(label "USB_SBU2"
+		(at 198.12 140.7922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcf0c5aa-2914-4863-9348-2727d87cae93")
+	)
+	(label "USB_J_P"
+		(at 218.44 200.4822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed8b30e5-67f6-4b21-8550-859a8119e9ee")
+	)
+	(label "USB-CC1"
+		(at 199.39 106.5022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4f0193d-028a-452b-8a44-ff02d6476227")
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_TP")
+		(at 241.3 200.4822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "016df27b-e6c1-4648-b8ce-92d6d3c3c635")
+		(property "Reference" "TP3J"
+			(at 231.14 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 236.22 203.5302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 241.3 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 241.3 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 236.22 199.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e3789cb-e3f1-45ad-bb06-e4afda540570")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "TP3J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:VBUS_C_BAR")
+		(at 228.6 190.3222 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02c02b5c-9edc-411d-92cf-31758b2aafef")
+		(property "Reference" "#PWR?"
+			(at 228.6 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_C"
+			(at 228.6 186.5122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0294e8ac-3799-440d-8bd1-0038734f8e55")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_mirrored_DIODE_BID_ESD2")
+		(at 162.56 172.5422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08921f76-9ffd-4bb3-9e36-e6c31a70ae49")
+		(property "Reference" "ESD3J"
+			(at 154.94 175.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 149.86 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DFN2_100X60X50_65"
+			(at 162.56 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD TVS 2P 5.5 DFN1006 CESD0501CU CTE"
+			(at 162.56 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CTE"
+			(at 161.036 172.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 161.036 172.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "5.5V"
+			(at 161.036 172.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "CESD0501CU"
+			(at 149.86 172.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Semiconductor Diode TVS SMT"
+			(at 149.86 172.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 149.86 172.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2da29e04-9627-4236-ab21-6ec3613a44c8")
+		)
+		(pin "1"
+			(uuid "9713bfb5-4dad-4018-9542-29208d06292e")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "ESD3J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_CAP1")
+		(at 185.42 98.8822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1170d0c2-5205-46e5-a99a-4c7ec31eccad")
+		(property "Reference" "C5J"
+			(at 184.15 105.2322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 186.69 104.7242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0603X80"
+			(at 185.42 98.8822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 98.8822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PSHF SMD CAP 470pF 50V 10%"
+			(at 185.42 98.8822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 184.15 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 184.15 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X7R"
+			(at 184.15 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 182.372 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 182.372 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "470pF"
+			(at 182.372 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 182.372 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "118eca57-6db4-49ca-b349-8d10308aa070")
+		)
+		(pin "2"
+			(uuid "46b568c2-2c93-4801-973a-5eb4976ac2b4")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C5J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_mirrored_DIODE_BID_ESD2")
+		(at 170.18 140.7922 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14878af1-f9f2-4fc0-8409-45b4b66d3749")
+		(property "Reference" "ESD7J"
+			(at 163.83 144.6022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 171.45 147.1422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DFN2_100X60X50_65"
+			(at 170.18 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD TVS 2P 5.5 DFN1006 CESD0501CU CTE"
+			(at 170.18 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CTE"
+			(at 168.656 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 168.656 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "5.5V"
+			(at 168.656 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "CESD0501CU"
+			(at 163.83 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Semiconductor Diode TVS SMT"
+			(at 163.83 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 163.83 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d6b0304-d4bf-4184-a4b7-3cca4b1777d2")
+		)
+		(pin "2"
+			(uuid "64da5dc0-0312-4393-953b-72ea182e97a3")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "ESD7J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 144.78 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19de0da0-aaa0-4873-b28a-492175ea60b6")
+		(property "Reference" "#PWR?"
+			(at 144.78 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 224.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "824f5c2d-a094-474f-9d52-a2de1e42c480")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_mirrored_TP")
+		(at 279.4 200.4822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3277f5d9-5b04-473d-9024-b906488f8fb5")
+		(property "Reference" "TP9J"
+			(at 284.48 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 278.892 199.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 279.4 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 279.4 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 278.892 199.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "549e0979-9240-4ca4-b208-2bb375023576")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "TP9J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_CAP1")
+		(at 91.44 208.1022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "344dbb5b-e257-4572-bd44-e4f71d003367")
+		(property "Reference" "C7J"
+			(at 91.44 218.2622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 91.44 210.6422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C0603X100"
+			(at 91.44 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GPHF SMD M CAP 1nF 50V ±10% 0603 X7R"
+			(at 91.44 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 90.17 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 90.17 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X7R"
+			(at 90.17 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 89.662 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 89.662 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1nF"
+			(at 89.662 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 89.662 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e944a9-1a24-469c-b181-bdb30a19603c")
+		)
+		(pin "2"
+			(uuid "3b639eba-660e-412f-8a84-cd60fd967199")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C7J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_TP")
+		(at 241.3 205.5622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35092dc3-eeaa-41bc-9700-ec956586dc95")
+		(property "Reference" "TP5J"
+			(at 231.14 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 236.22 208.6102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 241.3 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 241.3 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 236.22 204.2922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88300b98-663e-4dd4-a92a-fd281f01ed7b")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "TP5J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:VBUS_C_BAR")
+		(at 208.28 76.0222 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "398ab254-4bd4-4ded-9650-6a92dd566c7b")
+		(property "Reference" "#PWR?"
+			(at 208.28 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_C"
+			(at 208.28 72.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a0a824ad-0e91-4800-a743-40f7761b1e88")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_CAP1")
+		(at 99.06 208.1022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b53a0e2-b0c3-4c4b-a0cd-b25d5dbd54b2")
+		(property "Reference" "C8J"
+			(at 99.06 218.2622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 99.06 210.6422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C0603X100"
+			(at 99.06 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GPHF SMD M CAP 100nF 50V ±10% 0603 X7R"
+			(at 99.06 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 97.79 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 97.79 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X7R"
+			(at 97.79 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 97.282 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 97.282 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 97.282 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 97.282 206.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46b0dff3-9e15-40ea-a745-4f4ac6909c1f")
+		)
+		(pin "1"
+			(uuid "94740063-f2e3-41ff-897e-f826b9ada960")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C8J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_0_Teufel NoLogo")
+		(at 320.04 246.2022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42d0457a-5215-4c66-8322-0f99d014be8f")
+		(property "Reference" "Teufel_PCB_Logo1k"
+			(at 318.77 244.9322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${VERSION}-${REVISION}"
+			(at 318.77 246.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_NoLogo"
+			(at 320.04 246.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 246.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel PCB NoLogo"
+			(at 320.04 246.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 313.69 242.9002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 313.69 242.9002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" ""
+			(at 313.69 242.9002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" ""
+			(at 313.69 242.9002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMP_COEFFICIENT" ""
+			(at 313.69 242.9002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 313.69 242.9002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 313.69 242.9002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 313.69 242.9002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "Teufel_PCB_Logo1k")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_mirrored_TP")
+		(at 279.4 205.5622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45d19660-e8e8-4030-a0aa-1e35e2c52334")
+		(property "Reference" "TP6J"
+			(at 284.48 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 278.892 204.2922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 279.4 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 279.4 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 278.892 204.2922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc1855a4-f1c5-494b-8cbd-1b3c3565cc31")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "TP6J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 208.28 88.7222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c186698-e67c-4de7-abeb-4ccac83f0576")
+		(property "Reference" "#PWR?"
+			(at 208.28 88.7222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 95.0722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 88.7222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 88.7222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 88.7222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3cde6a31-6558-4351-b8fa-a6739a77bc96")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_1_RES1")
+		(at 279.4 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c4a2f80-09ba-4749-8a2d-34fcad968c2a")
+		(property "Reference" "R6J"
+			(at 280.67 214.7062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 280.67 216.4842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "R0402"
+			(at 279.4 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD THICK FILM RES. 0Ohm 1/16W 1% 0402"
+			(at 279.4 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/16W"
+			(at 278.13 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 278.13 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 278.13 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 278.13 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Resistor SMT"
+			(at 278.13 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "NC"
+			(at 278.13 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad8beb87-e6c3-4195-8d78-b7bd88b8f56a")
+		)
+		(pin "1"
+			(uuid "a405f6fe-5c06-4ba7-8c0e-d3e6f328e06e")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "R6J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_TP")
+		(at 241.3 195.4022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4db7597e-a7ad-401b-9917-9de45204d11a")
+		(property "Reference" "TP1J"
+			(at 231.14 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 236.22 198.4502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 241.3 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 241.3 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 236.22 194.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b309e5-45ac-4c15-9485-10f46361f253")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "TP1J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_1_mirrored_DIODE_TVS1")
+		(at 208.28 86.1822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dee4fdc-5370-4b46-af4d-f4d3452ee9af")
+		(property "Reference" "ESD1J"
+			(at 209.804 82.1182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 209.804 83.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOD-123FL"
+			(at 208.28 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD TVS 2P 26 SOD-123FL SMF26AL JJW"
+			(at 208.28 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JJW"
+			(at 206.756 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" "1A"
+			(at 206.756 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "26"
+			(at 206.756 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "SMF26AL"
+			(at 206.756 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Semiconductor Diode TVS SMT"
+			(at 206.756 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 206.756 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "K"
+			(uuid "fc15c410-0501-4c28-ac6e-565e181dccdd")
+		)
+		(pin "A"
+			(uuid "a72b9af7-7bc3-48d8-a32d-925b1f831885")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "ESD1J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_1_RES1")
+		(at 251.46 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4eae969a-fe82-4346-8bb2-4226535f29bb")
+		(property "Reference" "R5J"
+			(at 252.73 214.7062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 252.73 216.4842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "R0402"
+			(at 251.46 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD THICK FILM RES. 0Ohm 1/16W 1% 0402"
+			(at 251.46 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/16W"
+			(at 250.19 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 250.19 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 250.19 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 250.19 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Resistor SMT"
+			(at 250.19 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "NC"
+			(at 250.19 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ccbbfb7-2d59-49e2-ac79-1dfcf26b99ba")
+		)
+		(pin "1"
+			(uuid "548f2d16-ed1e-44af-b063-8abc5b209c46")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "R5J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_CAP1")
+		(at 167.64 78.5622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59e0148a-9cf5-4122-b038-1ea63adfe655")
+		(property "Reference" "C4J"
+			(at 168.91 82.6262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 168.91 84.4042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C0603X100"
+			(at 167.64 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PSHF SMD M CAP 10nF 50V ±10% 0603 X7R"
+			(at 167.64 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 166.37 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 166.37 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X7R"
+			(at 166.37 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 166.37 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 166.37 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10nF"
+			(at 166.37 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 166.37 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e199956b-7371-4e95-96a1-0bee444807eb")
+		)
+		(pin "1"
+			(uuid "85331cba-81e1-46c5-bb6b-73a38b5a67e8")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C4J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 99.06 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c02291a-f8f7-46f9-8bb3-c7e7031be90b")
+		(property "Reference" "#PWR?"
+			(at 99.06 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 224.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "cc1bb7c1-6d84-4587-b342-ddd603df709f")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 279.4 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cc35d1b-75ab-4e3d-a69b-3c47c5e1e3e0")
+		(property "Reference" "#PWR?"
+			(at 279.4 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 224.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8d34c20b-e373-4e27-b52c-d0885a7940b2")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 91.44 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64657a2d-064e-46f1-82fd-5386c47658b0")
+		(property "Reference" "#PWR?"
+			(at 91.44 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 224.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a18de3c8-6233-47e1-a9d1-d06195d2e3ab")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_0_mirrored_USB_TYPE_C_3")
+		(at 124.46 114.1222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ac1c077-34e9-4ff5-8b4a-2b568bd91546")
+		(property "Reference" "J1J"
+			(at 101.6 114.1222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 101.6 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "USB_TYPE_C_HC_0768"
+			(at 124.46 114.1222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 114.1222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD USB JACK 24P TID VERIFY"
+			(at 124.46 114.1222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "FTS"
+			(at 96.012 114.1222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "NG-HC-0412"
+			(at 96.012 111.5822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Jack USBC SMT"
+			(at 96.012 111.5822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 96.012 111.5822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "A10"
+			(uuid "4d11087b-573f-45c1-bf22-cc8746a7b77c")
+		)
+		(pin "B6"
+			(uuid "61332bdd-60a1-437b-a715-3781c751aa80")
+		)
+		(pin "G2"
+			(uuid "61bf7b8b-687f-4742-9a99-d408363392d5")
+		)
+		(pin "B4"
+			(uuid "a026be86-d388-4a2b-b2aa-f0a6e33afe06")
+		)
+		(pin "B5"
+			(uuid "6e7a6b40-a3f5-4f38-8da2-1a2fdf72afc0")
+		)
+		(pin "A6"
+			(uuid "8b440413-aa77-4e56-a1c5-b08081341733")
+		)
+		(pin "B12"
+			(uuid "cedf2bba-3167-4036-8db4-ad2652f4850a")
+		)
+		(pin "A12"
+			(uuid "e2e172c1-aae1-4c09-a275-84130c59d24a")
+		)
+		(pin "B9"
+			(uuid "adbc6c8e-2d61-49d8-a339-1f38296cf59f")
+		)
+		(pin "B10"
+			(uuid "6d6248e9-9d45-4b57-89f0-65a11307bfc8")
+		)
+		(pin "A2"
+			(uuid "ada4a181-dc34-478e-8959-96233b853ba2")
+		)
+		(pin "A1"
+			(uuid "2a1af25b-c0c5-4fcc-b0d6-9f40b82f3afa")
+		)
+		(pin "B11"
+			(uuid "0ddc89c3-9b37-4916-9e58-624d878854bc")
+		)
+		(pin "A3"
+			(uuid "5b395347-cf59-40bd-95b5-149fa0be7e38")
+		)
+		(pin "G4"
+			(uuid "26a188b0-f0a3-4973-9808-e72ca51a086c")
+		)
+		(pin "A7"
+			(uuid "97a03c17-0b45-46e4-9ded-51115a51cb5c")
+		)
+		(pin "B8"
+			(uuid "db91fdb1-c524-498f-b779-52ed274504f9")
+		)
+		(pin "A9"
+			(uuid "0fe19cd8-9b6d-4631-8a30-9e735b7be90c")
+		)
+		(pin "B1"
+			(uuid "a002a781-5705-46d5-8525-471732620926")
+		)
+		(pin "G3"
+			(uuid "6d71e587-bd8d-4c47-bf20-b57f3a617da3")
+		)
+		(pin "G1"
+			(uuid "2f5bdb3c-c4d7-4de6-9b00-63a7aba87833")
+		)
+		(pin "A5"
+			(uuid "f2f679b2-850d-4c2d-b056-69732d6ead94")
+		)
+		(pin "A4"
+			(uuid "f08e047d-1726-4485-9be7-7d898b58083e")
+		)
+		(pin "B3"
+			(uuid "20120759-15f4-44e8-856c-6596b7344aab")
+		)
+		(pin "B2"
+			(uuid "46589101-e15b-41d5-8be1-4f031401d66f")
+		)
+		(pin "A8"
+			(uuid "b1cb4bc9-1495-4937-aa8e-6bedd0d1b14b")
+		)
+		(pin "A11"
+			(uuid "c905e216-d580-4c3b-8a7f-6eb7455e805d")
+		)
+		(pin "B7"
+			(uuid "7bf31b98-813c-4a63-ba00-2be48a26bb91")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "J1J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 157.48 109.0422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f49c8a3-5bd9-4933-bb62-dd5b8883b2d0")
+		(property "Reference" "#PWR?"
+			(at 157.48 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 115.3922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a8d715f7-e04d-4342-b8fb-61d035a90013")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_CON 2X5P")
+		(at 269.24 208.1022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7060ede3-cf44-43de-ab0f-7ab818be9248")
+		(property "Reference" "P1J"
+			(at 259.08 192.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 259.08 210.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "WB200AW_2x5P"
+			(at 269.24 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD WTB CONNECTOR 10P P2.0mm TIN"
+			(at 269.24 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MINGHENG"
+			(at 256.032 192.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SYSTEM" "Connector"
+			(at 256.032 213.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "WB200AW-10"
+			(at 256.032 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Connector WTB SMT"
+			(at 256.032 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 256.032 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f42d9059-a4b6-4e02-ad1e-0440c771d99f")
+		)
+		(pin "7"
+			(uuid "ad7e4167-a74c-4ac8-ab62-a3ebd26aca70")
+		)
+		(pin "10"
+			(uuid "16345531-372a-4d3b-8f10-0f6d5ea42178")
+		)
+		(pin "4"
+			(uuid "4e4cf46b-245a-4945-8779-6d54f13f47e5")
+		)
+		(pin "9"
+			(uuid "90c5fe56-fe9c-4879-9ff7-2dd5c0b16102")
+		)
+		(pin "3"
+			(uuid "1e715305-0b0f-4417-ae00-068d4e83920c")
+		)
+		(pin "5"
+			(uuid "7da6f5d9-9d25-4cd6-a184-cf8452084d9e")
+		)
+		(pin "6"
+			(uuid "99b7e0f3-7a06-447b-8d87-c6554ab8c5e8")
+		)
+		(pin "8"
+			(uuid "d4b32861-d84b-400a-8087-f8d89162e8f4")
+		)
+		(pin "1"
+			(uuid "4e4aaa19-3ee6-4ed8-8f87-5ef0dd46eed7")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "P1J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_0_Teufel_Copyright")
+		(at 318.77 263.9822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f354b63-bc54-4dad-bc8d-e55d378a0a74")
+		(property "Reference" "Teufel_Copyright1K"
+			(at 318.77 261.9502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${COPYRIGHT_YEAR}"
+			(at 318.77 266.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "TEUFEL_COPYRIGHT"
+			(at 318.77 263.9822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 263.9822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel_Copyright_Year"
+			(at 318.77 263.9822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" ""
+			(at 318.77 260.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" ""
+			(at 318.77 260.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "2023"
+			(at 318.77 260.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "Teufel_Copyright1K")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_1_mirrored_DIODE_BID_ESD2")
+		(at 170.18 135.7122 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "828bf1f2-d55a-4be2-9007-ad2c4fa5146c")
+		(property "Reference" "ESD6J"
+			(at 163.83 131.9022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 171.45 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DFN2_100X60X50_65"
+			(at 170.18 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD TVS 2P 5.5 DFN1006 CESD0501CU CTE"
+			(at 170.18 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CTE"
+			(at 168.656 127.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 168.656 127.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "5.5V"
+			(at 168.656 127.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "CESD0501CU"
+			(at 163.83 127.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Semiconductor Diode TVS SMT"
+			(at 163.83 127.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 163.83 127.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7aa033e-c1b8-4eef-a416-83dab95163f2")
+		)
+		(pin "1"
+			(uuid "47bd018c-3def-4522-a158-66161294ed51")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "ESD6J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_CAP1")
+		(at 137.16 208.1022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bebd551-7202-469a-84ab-69ff707ef9d2")
+		(property "Reference" "C9J"
+			(at 137.16 218.2622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 137.16 210.6422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C0603X100"
+			(at 137.16 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GPHF SMD M CAP 1nF 50V ±10% 0603 X7R"
+			(at 137.16 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 135.89 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 135.89 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X7R"
+			(at 135.89 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 135.382 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 135.382 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1nF"
+			(at 135.382 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 135.382 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c9937dc-9ef9-497b-b045-3033ade9d843")
+		)
+		(pin "1"
+			(uuid "0119b750-9018-4ff6-a4ac-7908eef454cb")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C9J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_0_RES1")
+		(at 185.42 135.7122 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "936bb067-b0a7-412a-bb70-8c2bd5499843")
+		(property "Reference" "R3J"
+			(at 182.88 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 190.5 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "R0402"
+			(at 185.42 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GPHF SMD RES. 0OHM 1/16W 5% 0402"
+			(at 185.42 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/16W"
+			(at 184.15 132.6642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 184.15 132.6642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 184.15 132.6642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 182.88 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Resistor SMT"
+			(at 182.88 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 182.88 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e13e716-552a-4304-97f6-b47ae09ea1bf")
+		)
+		(pin "1"
+			(uuid "e171c288-7d4e-4c14-bd9a-7a152ace3c55")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "R3J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_TP")
+		(at 241.3 197.9422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93fee9fb-d310-41f8-8215-2e97f0897d1d")
+		(property "Reference" "TP2J"
+			(at 231.14 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 236.22 200.9902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 241.3 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 241.3 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 236.22 196.6722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7515817d-467a-4f41-a700-76b3638abcb9")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "TP2J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_0_RES1")
+		(at 176.53 180.1622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99a79f2d-a0de-4f05-a556-4f00b5f4e1a6")
+		(property "Reference" "R2J"
+			(at 175.26 180.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 184.15 180.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "R0402"
+			(at 176.53 180.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 180.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD THICK FILM RES. 0Ohm 1/16W 1% 0402"
+			(at 176.53 180.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/16W"
+			(at 175.26 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 175.26 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 175.26 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 175.26 178.3842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Resistor SMT"
+			(at 175.26 178.3842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 175.26 178.3842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b8e2f64-1802-40cf-87df-e5fb80bdb584")
+		)
+		(pin "2"
+			(uuid "496c9294-716b-4b6b-9095-1f2ad7d645d5")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "R2J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 246.38 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b48d85c-0753-4ba7-b6e7-5f56ac3d506f")
+		(property "Reference" "#PWR?"
+			(at 246.38 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 224.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "387cbfd7-0c58-4aa9-90e8-753b53a3371c")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_mirrored_DIODE_BID_ESD2")
+		(at 170.18 98.8822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fabeff4-4faf-45e1-94ff-269655b1ea98")
+		(property "Reference" "ESD4J"
+			(at 163.83 102.6922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 171.45 105.2322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DFN2_100X60X50_65"
+			(at 170.18 98.8822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 98.8822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD TVS 2P 5.5 DFN1006 CESD0501CU CTE"
+			(at 170.18 98.8822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CTE"
+			(at 168.656 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 168.656 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "5.5V"
+			(at 168.656 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "CESD0501CU"
+			(at 163.83 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Semiconductor Diode TVS SMT"
+			(at 163.83 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 163.83 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "481b9ac6-cd29-41f2-8dfb-7da9afd9e1bb")
+		)
+		(pin "1"
+			(uuid "8221e7a9-99ca-42d2-a152-2ecb5b35d555")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "ESD4J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_mirrored_INDUCTOR_CM_2_1")
+		(at 144.78 83.6422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a18d0af0-a1eb-4928-a4d5-d744b2c15b0c")
+		(property "Reference" "L2J"
+			(at 147.066 80.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 147.066 86.4362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DU_IND_SMD_SCM7060"
+			(at 144.78 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GPCOMMON MODE COIL 700Ohm 100MHz 125V 4A"
+			(at 144.78 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY" "100MHz"
+			(at 144.272 80.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" ""
+			(at 144.272 80.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CET CHAMPI"
+			(at 144.272 80.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "125V"
+			(at 144.272 80.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 144.272 80.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" "4A"
+			(at 144.272 80.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "CET706038-701T02"
+			(at 144.272 78.3082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Inductor common Mode SMT"
+			(at 144.272 78.3082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "700R"
+			(at 144.272 78.3082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bee26e0-fe78-4f4e-ab1e-0ee722e5d543")
+		)
+		(pin "1"
+			(uuid "038a104a-5bed-4841-8eec-53ebdc5e2a00")
+		)
+		(pin "4"
+			(uuid "7bf3745b-6626-44f5-a3c5-400b0dc4cbc1")
+		)
+		(pin "3"
+			(uuid "3a3f858a-b69a-4e99-bf51-e784c5803bdb")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "L2J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_CAP1")
+		(at 198.12 78.5622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1cf6787-70e9-4a7d-8dcb-97688d7a33fa")
+		(property "Reference" "C1J"
+			(at 199.39 82.6262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 199.39 84.4042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C0805_145"
+			(at 198.12 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GPHF $ SMD M CAP 2.2uF 50V ±10% 0805 X5R"
+			(at 198.12 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 196.85 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 196.85 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X5R"
+			(at 196.85 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 196.85 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 196.85 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "2.2uF"
+			(at 196.85 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 196.85 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d4fc2c5-1c1e-45bf-870c-66808490eaf2")
+		)
+		(pin "2"
+			(uuid "b3a262e9-ad53-4cd2-bd59-d7bec154c868")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C1J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_0_RES1")
+		(at 176.53 159.8422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a42ffa48-2460-47ad-afcd-add932ebe797")
+		(property "Reference" "R1J"
+			(at 175.26 159.8422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 184.15 159.8422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "R0402"
+			(at 176.53 159.8422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 159.8422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD THICK FILM RES. 0Ohm 1/16W 1% 0402"
+			(at 176.53 159.8422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/16W"
+			(at 175.26 156.7942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 175.26 156.7942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 175.26 156.7942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 175.26 158.0642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Resistor SMT"
+			(at 175.26 158.0642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 175.26 158.0642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a6f69da-dbdc-4ba9-9a7b-cd664f3fbc82")
+		)
+		(pin "1"
+			(uuid "8204c4bc-71d3-4fd3-96b4-c24f86b77daf")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "R1J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_CAP1")
+		(at 187.96 78.5622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a886d6a5-e2e6-49bd-8338-39e5c43b50ed")
+		(property "Reference" "C2J"
+			(at 189.23 82.6262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 189.23 84.4042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C0603X100"
+			(at 187.96 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GPHF SMD M CAP 100nF 50V ±10% 0603 X7R"
+			(at 187.96 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 186.69 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 186.69 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X7R"
+			(at 186.69 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 186.69 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 186.69 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 186.69 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 186.69 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73e73afe-99e3-4ded-bdb8-77052da6ad35")
+		)
+		(pin "1"
+			(uuid "16f0a4d6-e071-4187-993d-8d292e0220f7")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C2J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_0_RES1")
+		(at 185.42 140.7922 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a91b4b2c-9f0d-420e-a33d-fdeef670b363")
+		(property "Reference" "R4J"
+			(at 182.88 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 190.5 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "R0402"
+			(at 185.42 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GPHF SMD RES. 0OHM 1/16W 5% 0402"
+			(at 185.42 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/16W"
+			(at 184.15 137.7442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 184.15 137.7442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 184.15 137.7442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 182.88 139.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Resistor SMT"
+			(at 182.88 139.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 182.88 139.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bada1e5-fb99-4860-b518-32811c2e2a67")
+		)
+		(pin "2"
+			(uuid "55db2c9a-523f-4c65-87c9-c72850f1f756")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "R4J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_1_CAP1")
+		(at 185.42 119.2022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab1395b0-81e4-4f96-973b-be6421a6f855")
+		(property "Reference" "C6J"
+			(at 184.15 116.6622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 184.15 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0603X80"
+			(at 185.42 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PSHF SMD CAP 470pF 50V 10%"
+			(at 185.42 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 184.15 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 184.15 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X7R"
+			(at 184.15 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 182.372 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 182.372 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "470pF"
+			(at 182.372 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 182.372 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5ca9c16-4eac-4672-bf17-a8ca77226396")
+		)
+		(pin "2"
+			(uuid "4895b1c1-5476-47d6-a109-a897e1dc0a31")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C6J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:VBUS_C_BAR")
+		(at 302.26 190.3222 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aea5840e-c1da-4f45-9c94-824a996f15db")
+		(property "Reference" "#PWR?"
+			(at 302.26 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_C"
+			(at 302.26 186.5122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 190.3222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c7d3bcdc-1d85-45c8-8b0f-f09cbb61ac47")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_mirrored_TP")
+		(at 279.4 203.0222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b39c3044-6bbc-4cc2-b44b-f537a75ceefb")
+		(property "Reference" "TP10J"
+			(at 284.48 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 278.892 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 279.4 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 279.4 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 278.892 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc6ebfb5-9538-4e18-aadf-8378aed6d1b3")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "TP10J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_TP")
+		(at 241.3 203.0222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3ce351f-6572-4f4a-9fa1-b18d87c752ed")
+		(property "Reference" "TP4J"
+			(at 231.14 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 236.22 206.0702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 241.3 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 241.3 203.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 236.22 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2470840-6812-4f0e-8d49-01976d315332")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "TP4J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_1_mirrored_DIODE_BID_ESD2")
+		(at 170.18 119.2022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7effe43-f926-430d-b2b6-e191bd3ea764")
+		(property "Reference" "ESD5J"
+			(at 163.83 115.3922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 171.45 117.9322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DFN2_100X60X50_65"
+			(at 170.18 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD TVS 2P 5.5 DFN1006 CESD0501CU CTE"
+			(at 170.18 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CTE"
+			(at 168.656 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 168.656 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "5.5V"
+			(at 168.656 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "CESD0501CU"
+			(at 163.83 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Semiconductor Diode TVS SMT"
+			(at 163.83 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 163.83 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dddd446-7d36-43b7-a46f-52aabb92fdb5")
+		)
+		(pin "2"
+			(uuid "9b04289c-6d4c-4e0d-b0ee-1e751315d0c6")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "ESD5J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_0_Teufel_ASM_Label")
+		(at 318.77 257.6322 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbed8fca-06f5-4a65-950e-3167df2fbbae")
+		(property "Reference" "Teufel_ASM_Label1J"
+			(at 318.77 254.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${REVISION}"
+			(at 318.77 259.6642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_ASM_Rev"
+			(at 318.77 257.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 257.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel_ASM_Rev"
+			(at 318.77 257.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" ""
+			(at 318.77 254.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" ""
+			(at 318.77 254.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "3.2"
+			(at 318.77 254.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "Teufel_ASM_Label1J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 251.46 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0be8423-0a47-430e-b05d-e5b72429dcd5")
+		(property "Reference" "#PWR?"
+			(at 251.46 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 224.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e05a4aa5-c63e-4795-a602-f2d06b05c79c")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 294.64 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd6bdb65-8b31-4357-a205-35f58826735d")
+		(property "Reference" "#PWR?"
+			(at 294.64 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 224.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d2df1d00-463c-4227-80be-14e3d2da2493")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 162.56 170.0022 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d27be4-e2ec-4911-8eac-d28a481dbc24")
+		(property "Reference" "#PWR?"
+			(at 162.56 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 170.0022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "87cebfef-525f-4290-acef-ed89209a862e")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:GND_POWER_GROUND")
+		(at 137.16 218.2622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d877acf0-db8a-4332-869a-98302a04cf49")
+		(property "Reference" "#PWR?"
+			(at 137.16 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 224.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f391205f-a889-4a54-9637-17d1785ca617")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_1_mirrored_DIODE_BID_ESD2")
+		(at 162.56 167.4622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db4b5502-e751-4dd4-a33a-c067bd792be9")
+		(property "Reference" "ESD2J"
+			(at 154.94 163.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 149.86 166.1922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DFN2_100X60X50_65"
+			(at 162.56 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD TVS 2P 5.5 DFN1006 CESD0501CU CTE"
+			(at 162.56 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CTE"
+			(at 161.036 159.3342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 161.036 159.3342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "5.5V"
+			(at 161.036 159.3342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "CESD0501CU"
+			(at 149.86 159.3342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Semiconductor Diode TVS SMT"
+			(at 149.86 159.3342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 149.86 159.3342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b01cbec-2a83-4701-b25d-6be2702eaacd")
+		)
+		(pin "1"
+			(uuid "d7958b9a-3a09-4e04-b611-49a2e9f8ac25")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "ESD2J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_2_mirrored_CET9070F-701")
+		(at 175.26 172.5422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e040b63b-4a00-4603-8933-bc8894c98051")
+		(property "Reference" "L1J"
+			(at 177.546 166.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 177.546 176.0982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CET2012D"
+			(at 175.26 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "COMMON MODE COIL 90Ohm 100MHz 400mA"
+			(at 175.26 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CET CHAMPI"
+			(at 174.752 166.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY" "100MHz"
+			(at 174.752 166.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" "400mA"
+			(at 174.752 166.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 174.752 166.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" ""
+			(at 174.752 166.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 174.752 166.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "CET2012A-900S"
+			(at 174.752 163.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Ferrite Bead SMT"
+			(at 174.752 163.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "90R"
+			(at 174.752 163.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "96ed218f-62ad-4fee-881d-8bce6aedeb73")
+		)
+		(pin "2"
+			(uuid "1c6b861a-ba62-4cb6-a892-d2cbc4a9bd6b")
+		)
+		(pin "1"
+			(uuid "3222017c-be84-4289-a5a9-a63595b13b65")
+		)
+		(pin "4"
+			(uuid "5a8442cc-a73d-4c64-9600-30dbbdde389a")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "L1J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_CAP1")
+		(at 144.78 208.1022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebf65c5c-4c67-404e-8a76-ef1483f3db83")
+		(property "Reference" "C10J"
+			(at 144.78 218.2622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 144.78 210.6422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C0603X100"
+			(at 144.78 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GPHF SMD M CAP 100nF 50V ±10% 0603 X7R"
+			(at 144.78 208.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 143.51 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 143.51 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X7R"
+			(at 143.51 207.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 143.002 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 143.002 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 143.002 205.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 143.002 206.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "806e3478-77f6-41ee-ab2b-b7f6fbb017d1")
+		)
+		(pin "1"
+			(uuid "d2db6a47-9e77-4ed5-8ec4-c66f08a26182")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C10J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_0_Teufel_PCB_Label")
+		(at 318.77 251.2822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edd5c127-c719-4fce-81a1-5b91554f73af")
+		(property "Reference" "Teufel_PCB_Label1J"
+			(at 318.77 248.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${REVISION}"
+			(at 318.77 253.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_PCB_Rev"
+			(at 318.77 251.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 251.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel_PCB_Label"
+			(at 318.77 251.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" ""
+			(at 318.77 248.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" ""
+			(at 318.77 248.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "3.2"
+			(at 318.77 248.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "Teufel_PCB_Label1J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_USB_JACK-altium-import:root_3_CAP1")
+		(at 177.8 78.5622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb470f36-0c8b-4f7e-b7d1-38c34a660442")
+		(property "Reference" "C3J"
+			(at 179.07 82.6262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 179.07 84.4042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C0603X100"
+			(at 177.8 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PSHF SMD M CAP 10nF 50V ±10% 0603 X7R"
+			(at 177.8 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Multi-Sourced"
+			(at 176.53 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 176.53 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURERANGE" "X7R"
+			(at 176.53 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "Generic"
+			(at 176.53 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Capacitor ceramic SMT"
+			(at 176.53 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10nF"
+			(at 176.53 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 176.53 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "911b3c7b-1aed-445b-ab50-896222d74ea7")
+		)
+		(pin "1"
+			(uuid "44e4bd16-788f-4444-8457-20eaed82118f")
+		)
+		(instances
+			(project ""
+				(path "/1f0f583b-4276-4943-8e32-4aad965bdb14"
+					(reference "C3J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

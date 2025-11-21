@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 0)
-  (lib (name "Mynd_BT-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Mynd_BT-altium-import.kicad_sym")(options "")(descr ""))
-)

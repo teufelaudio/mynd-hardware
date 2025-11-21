@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Mynd_USB_JACK-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Mynd_USB_JACK-altium-import.kicad_sym")(options "")(descr ""))
+)

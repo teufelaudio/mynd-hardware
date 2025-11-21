@@ -1,0 +1,3371 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "38c9208b-1f45-43eb-8407-32e87f11e7e5")
+	(paper "A3")
+	(title_block
+		(title "=SCH_Title")
+		(rev "=SCH_REV")
+	)
+	(lib_symbols
+		(symbol "Mynd_Conn-altium-import:root_0_CON 2X5P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD BTB CONNECTOR 10P P2.54mm GOLD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Pin_Header_SMD_Side_2X5_254*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_CON 2X5P_1_0"
+				(rectangle
+					(start 10.16 0)
+					(end 0 -15.24)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Conn-altium-import:root_0_MARK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MARK DOT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*MARK*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_MARK_1_0"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 1.27 0 180)
+					(length 1.27)
+					(name "MK_B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "MK_B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 0 0)
+					(length 1.27)
+					(name "MK_T"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "MK_T"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Conn-altium-import:root_0_Teufel NoLogo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel PCB NoLogo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_NoLogo*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Mynd_Conn-altium-import:root_0_Teufel_ASM_Rev"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel Assembly Rev. PCB Label"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_ASM_Rev*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Teufel_ASM_Rev_1_0"
+				(text "ASM_Rev"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Conn-altium-import:root_0_Teufel_Copyright"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel Copyright PCB Label"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_Copyright*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Teufel_Copyright_1_0"
+				(text "Copyright_Year"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Conn-altium-import:root_0_Teufel_PCB_Rev"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Teufel PCB Rev. PCB Label"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Teufel_PCB_Rev*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Teufel_PCB_Rev_1_0"
+				(text "PCB_Rev"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Conn-altium-import:root_3_CON 8P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD BTB CONNECTOR 8P P2.5mm GOLD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CJL008DH250197*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_CON 8P_1_0"
+				(rectangle
+					(start 0 0)
+					(end -22.86 -5.08)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -7.62 90)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -7.62 90)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -7.62 90)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mynd_Conn-altium-import:root_3_TP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TP120*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_TP_1_0"
+				(circle
+					(center 0 -3.81)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 149.86 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "114ab53c-cd4e-4bfb-8e6c-0a5ffa30b14d")
+	)
+	(junction
+		(at 152.4 203.0222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2647c9f3-5270-4a15-b937-c641f39a41cb")
+	)
+	(junction
+		(at 142.24 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33eedbbc-5fe8-4bda-853e-15a58cadce4f")
+	)
+	(junction
+		(at 132.08 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44e1a8f6-e865-42f3-a4d1-6991a9917aba")
+	)
+	(junction
+		(at 139.7 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55e5bf72-61e6-4962-85d3-f6cd25a301ca")
+	)
+	(junction
+		(at 144.78 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f26cffc-3cfc-4180-ba9b-ad30f5df5ea4")
+	)
+	(junction
+		(at 147.32 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "881280ee-e121-482d-bf0f-996fb20e315c")
+	)
+	(junction
+		(at 134.62 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a18b9122-448f-4884-af27-a5e8e4cb57e6")
+	)
+	(junction
+		(at 129.54 203.0222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3ca6bc3-d513-48cb-8778-378cc9f72e86")
+	)
+	(junction
+		(at 137.16 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff369779-fe93-43ec-882a-ff6fdcaad5c1")
+	)
+	(wire
+		(pts
+			(xy 139.7 152.2222) (xy 154.94 152.2222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01677095-0046-4391-8c2d-eddb1f8655b9")
+	)
+	(wire
+		(pts
+			(xy 134.62 129.3622) (xy 134.62 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f59da1-6540-4cb4-aac7-3f035c304816")
+	)
+	(wire
+		(pts
+			(xy 149.86 203.0222) (xy 152.4 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0b347b-b200-4927-a9e7-e43934ca404e")
+	)
+	(wire
+		(pts
+			(xy 129.54 157.3022) (xy 137.16 157.3022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af72778-8077-4ef4-92b4-317b5136d123")
+	)
+	(wire
+		(pts
+			(xy 157.48 210.6422) (xy 149.86 210.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c97465-640d-4343-8956-b17dac7e2139")
+	)
+	(wire
+		(pts
+			(xy 137.16 134.4422) (xy 137.16 129.3622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d05ba70-873c-4271-8b86-d7a6d0331aed")
+	)
+	(wire
+		(pts
+			(xy 149.86 213.1822) (xy 160.02 213.1822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226a4a05-f905-495a-8c24-b84f1fd2a8fd")
+	)
+	(wire
+		(pts
+			(xy 139.7 134.4422) (xy 139.7 152.2222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233dff18-33b3-4ad1-b0d5-f57a2e9826aa")
+	)
+	(wire
+		(pts
+			(xy 116.84 170.0022) (xy 116.84 208.1022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b26d366-bf71-4741-9085-33b3af1b498c")
+	)
+	(polyline
+		(pts
+			(xy 317.5 291.9222) (xy 317.5 266.5222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "339dd4df-397e-4b26-818f-070b7beff232")
+	)
+	(polyline
+		(pts
+			(xy 317.5 266.5222) (xy 388.62 266.5222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3df6dd0f-a703-4d0d-9789-9dd79eb54d8f")
+	)
+	(wire
+		(pts
+			(xy 160.02 144.6022) (xy 149.86 144.6022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d812b4-49ac-4e8f-9a30-3ee7325fbd41")
+	)
+	(wire
+		(pts
+			(xy 134.62 134.4422) (xy 134.62 152.2222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dbdf88-00f1-456f-b88c-d7cb48e7c205")
+	)
+	(wire
+		(pts
+			(xy 129.54 205.5622) (xy 129.54 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b63f025-cd6b-4a8d-a445-c543d7e2d94d")
+	)
+	(wire
+		(pts
+			(xy 132.08 129.3622) (xy 132.08 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3d7fc8-87ee-42ec-9a73-6bac6f8ab8ff")
+	)
+	(wire
+		(pts
+			(xy 142.24 129.3622) (xy 142.24 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd0f43a-b89d-446a-8fe1-424fd2ef132d")
+	)
+	(polyline
+		(pts
+			(xy 317.5 279.2222) (xy 388.62 279.2222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "628f7aa9-23d1-4096-99e1-85f79c8c41ac")
+	)
+	(wire
+		(pts
+			(xy 152.4 157.3022) (xy 144.78 157.3022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639a632f-ca93-4a04-bb79-0b337af652ff")
+	)
+	(wire
+		(pts
+			(xy 142.24 134.4422) (xy 142.24 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681835ec-b633-4ed2-b156-ba79aa78f793")
+	)
+	(wire
+		(pts
+			(xy 124.46 152.2222) (xy 124.46 210.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6d1215-bb25-471a-a7ba-687a31d2d039")
+	)
+	(wire
+		(pts
+			(xy 149.86 134.4422) (xy 149.86 129.3622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714a6c51-3313-4571-b9a2-193dd9958923")
+	)
+	(wire
+		(pts
+			(xy 160.02 213.1822) (xy 160.02 144.6022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789ed741-15f2-439c-8167-3d109a8cb217")
+	)
+	(wire
+		(pts
+			(xy 132.08 147.1422) (xy 121.92 147.1422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c56c37-5457-4476-b2ce-96be803bffc8")
+	)
+	(wire
+		(pts
+			(xy 142.24 170.0022) (xy 116.84 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879262ab-182d-4370-a19b-b052c8ac9bde")
+	)
+	(wire
+		(pts
+			(xy 116.84 208.1022) (xy 134.62 208.1022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1f0c50-ed27-47e3-aa2d-d9b921420359")
+	)
+	(wire
+		(pts
+			(xy 139.7 129.3622) (xy 139.7 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93006d14-e5a3-4797-bcd9-e61f52028273")
+	)
+	(wire
+		(pts
+			(xy 147.32 134.4422) (xy 147.32 147.1422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962f921c-99d9-4f77-873e-b246a8fc6219")
+	)
+	(wire
+		(pts
+			(xy 121.92 147.1422) (xy 121.92 213.1822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03d3c05-923e-4ea6-b04c-5a645afb1998")
+	)
+	(polyline
+		(pts
+			(xy 317.5 266.5222) (xy 317.5 241.1222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a2f6dcb1-7dfb-41de-a155-f6c219227af6")
+	)
+	(wire
+		(pts
+			(xy 154.94 152.2222) (xy 154.94 208.1022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa14ed97-5dbc-49f5-97ac-0c4b49ce2db4")
+	)
+	(wire
+		(pts
+			(xy 157.48 147.1422) (xy 157.48 210.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af755cf2-c6b6-4f21-be8e-395ecd550b44")
+	)
+	(wire
+		(pts
+			(xy 149.86 144.6022) (xy 149.86 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d0b850-1cc5-4120-82e0-2ffdb711395b")
+	)
+	(wire
+		(pts
+			(xy 137.16 157.3022) (xy 137.16 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85f8444-6731-4b83-af27-1536a8042cc7")
+	)
+	(polyline
+		(pts
+			(xy 317.5 284.3022) (xy 388.62 284.3022)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b96ca468-7f67-41c9-9473-46ca56a34510")
+	)
+	(wire
+		(pts
+			(xy 129.54 203.0222) (xy 129.54 157.3022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c2f334-aa32-4205-bd32-cc0ea90ccd7d")
+	)
+	(wire
+		(pts
+			(xy 121.92 213.1822) (xy 134.62 213.1822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb2f3a2-0639-467c-a87c-4acca636761b")
+	)
+	(wire
+		(pts
+			(xy 124.46 210.6422) (xy 134.62 210.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dff9cf-911d-4139-b45a-40bc211e546b")
+	)
+	(wire
+		(pts
+			(xy 134.62 203.0222) (xy 129.54 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c416a082-983e-4762-aebd-a7e9e0617eac")
+	)
+	(polyline
+		(pts
+			(xy 317.5 281.7622) (xy 388.62 281.7622)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c82e7df5-08d6-41af-ad2b-c1ce9fd2736a")
+	)
+	(wire
+		(pts
+			(xy 144.78 157.3022) (xy 144.78 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5f8b6b-a8de-429c-b5af-c019f9275859")
+	)
+	(polyline
+		(pts
+			(xy 368.3 291.9222) (xy 368.3 284.3022)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d52d311d-aec7-4906-b6b6-cf0bfc5a134f")
+	)
+	(wire
+		(pts
+			(xy 132.08 134.4422) (xy 132.08 147.1422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3cf38f-9411-4a26-b71b-66dd23758470")
+	)
+	(wire
+		(pts
+			(xy 152.4 205.5622) (xy 152.4 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e589bc-c362-4377-a29b-db80a9ab1a6d")
+	)
+	(wire
+		(pts
+			(xy 134.62 152.2222) (xy 124.46 152.2222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8017a55-9122-4e94-9d2c-85ad940d11f2")
+	)
+	(wire
+		(pts
+			(xy 152.4 203.0222) (xy 152.4 157.3022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8adf0a8-475f-4638-b9f0-23c7df7719fb")
+	)
+	(wire
+		(pts
+			(xy 144.78 134.4422) (xy 144.78 129.3622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e963b464-d36d-4fd4-80d5-d5ac23ab3449")
+	)
+	(wire
+		(pts
+			(xy 147.32 129.3622) (xy 147.32 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafe3264-bdaa-4a06-8eb0-91afb18363f3")
+	)
+	(wire
+		(pts
+			(xy 147.32 147.1422) (xy 157.48 147.1422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef849e5d-45af-4418-acf8-20c04032ede1")
+	)
+	(wire
+		(pts
+			(xy 154.94 208.1022) (xy 149.86 208.1022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0faf9b7-3c1c-4b57-ae2b-d07eef2ccbc8")
+	)
+	(wire
+		(pts
+			(xy 149.86 205.5622) (xy 152.4 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e37ca7-5ae3-478a-9800-f30a59708ad8")
+	)
+	(polyline
+		(pts
+			(xy 317.5 286.8422) (xy 388.62 286.8422)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f556a5ee-60eb-4d56-87ea-172ced6ba98f")
+	)
+	(wire
+		(pts
+			(xy 134.62 205.5622) (xy 129.54 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99e6c77-f1c1-43ca-88a9-f0106cebc019")
+	)
+	(polyline
+		(pts
+			(xy 317.5 289.3822) (xy 388.62 289.3822)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "fa3e9dc7-473f-4cf1-adfc-7b4838fb02b3")
+	)
+	(text "Mynd Amp 2 Baffle Connector"
+		(exclude_from_sim no)
+		(at 190.5 32.8422 0)
+		(effects
+			(font
+				(size 4.572 4.572)
+				(thickness 0.9144)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "026be4d3-e3e3-4729-bce3-5188a6d89611")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 330.2 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02b9ee4d-a1d6-4593-9235-63fe867f33bb")
+	)
+	(text "Date:"
+		(exclude_from_sim no)
+		(at 370.84 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f57825d-7c58-49fb-8e1e-ac982887bbf5")
+	)
+	(text "Version:"
+		(exclude_from_sim no)
+		(at 320.04 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "268bd858-2c06-4c22-9176-59944d5fe019")
+	)
+	(text "Germany"
+		(exclude_from_sim no)
+		(at 358.14 277.9522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "272d1ee3-3433-410a-bac9-09c2dbb48f99")
+	)
+	(text "Size:"
+		(exclude_from_sim no)
+		(at 370.84 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3063a780-2851-4d76-a61e-387840e87ff7")
+	)
+	(text "Page Title:"
+		(exclude_from_sim no)
+		(at 320.04 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32e0728d-e7d5-41fe-a5e5-0619223bfc68")
+	)
+	(text "${PROJECTNAME}"
+		(exclude_from_sim no)
+		(at 330.2 281.7622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f164309-a73b-4b5d-b75e-d4688d56c44b")
+	)
+	(text "Lautspreecher Teufel GmbH"
+		(exclude_from_sim no)
+		(at 358.14 270.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "43cad2e2-4f6a-44e8-92ac-598c414e324a")
+	)
+	(text "modified:"
+		(exclude_from_sim no)
+		(at 365.76 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4722b800-5c02-45e8-84a6-62a7bfb3957d")
+	)
+	(text "Budapester Straße 44"
+		(exclude_from_sim no)
+		(at 358.14 272.8722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e82aa5c-c121-4fae-a507-325673244130")
+	)
+	(text "${REVISION}"
+		(exclude_from_sim no)
+		(at 350.52 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52cf2ea7-de9f-4b02-925a-777130f1b401")
+	)
+	(text "${MODIFIEDDATE}"
+		(exclude_from_sim no)
+		(at 375.92 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "568955c9-fb84-46cd-a070-e4dd5556b9a0")
+	)
+	(text "Revision:"
+		(exclude_from_sim no)
+		(at 318.77 243.6622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e7cec31-741e-4600-8e90-0b0a096a1349")
+	)
+	(text "Project:"
+		(exclude_from_sim no)
+		(at 320.04 281.7622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72126497-3133-4991-9f26-0390a3d8564c")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 378.46 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74a3910c-b927-4c92-b80c-e0829e2717ee")
+	)
+	(text "Rev:"
+		(exclude_from_sim no)
+		(at 345.44 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7534cd88-1a8c-4d32-a591-44c09fd444aa")
+	)
+	(text "of"
+		(exclude_from_sim no)
+		(at 381 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bb2dc6f-22bd-4b60-afd9-88d2a010ad2a")
+	)
+	(text "${ENGINEER}"
+		(exclude_from_sim no)
+		(at 330.2 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fe2a338-ccd6-4e69-9440-411eebbf6920")
+	)
+	(text "File Name:"
+		(exclude_from_sim no)
+		(at 320.04 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8828c77b-2575-4f78-b616-106eb92f2e43")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 375.92 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "888b1cf8-3fda-40c5-b987-0992642f0825")
+	)
+	(text "${VERSION}"
+		(exclude_from_sim no)
+		(at 330.2 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd8ad83-9d9e-4556-9f0a-7f6960d8682a")
+	)
+	(text "Page:"
+		(exclude_from_sim no)
+		(at 370.84 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8af7093-5109-4ee9-afb0-368ae1e7b40e")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 383.54 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcf1ed37-c3ff-43f7-92b1-8f30ec27cd8b")
+	)
+	(text "Engineer:"
+		(exclude_from_sim no)
+		(at 320.04 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8b8d0fc-e424-4418-b990-4c2876f7172c")
+	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 330.2 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9ea53c6-4eb9-4d60-a550-dc08db7ca06f")
+	)
+	(text "10787 Berlin"
+		(exclude_from_sim no)
+		(at 358.14 275.4122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa42a8b4-46f9-4c35-9518-587c690c7290")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 375.92 286.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe3b24b3-d1c6-48a1-a11a-b748a7167a5d")
+	)
+	(label "C_Open"
+		(at 134.62 170.0022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b82c71b-c531-430e-8fe7-d611b8ca63e2")
+	)
+	(label "TW_L_P"
+		(at 150.716 147.1422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e860057-0ba2-4cba-9d0d-9660cec91ea4")
+	)
+	(label "TW_R_N"
+		(at 124.46 147.1422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "997005a2-2f35-47e6-aaa4-0fc286edd0b6")
+	)
+	(label "BatVCC"
+		(at 147.118 152.2222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aba7f73e-d30d-41cc-bb31-4cbb8146345b")
+	)
+	(label "SW_N"
+		(at 147.32 157.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af91db90-73d3-46f0-8fa1-e39f8951effe")
+	)
+	(label "TW_R_P"
+		(at 124.46 152.2222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdaa6f21-94bc-47d1-a140-8fb06e2fe8cf")
+	)
+	(label "SW_P"
+		(at 129.54 157.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db33dc5c-f530-4b9c-8404-16511b013d6e")
+	)
+	(label "TW_L_N"
+		(at 152.4 144.6022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8d2544a-4dd3-41de-a6d8-210a8f250396")
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_0_Teufel_Copyright")
+		(at 318.77 263.9822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11b2e491-a2b9-4cc3-a0b1-6633c1dc071d")
+		(property "Reference" "Teufel_Copyright1S"
+			(at 318.77 260.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 318.77 266.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_Copyright"
+			(at 318.77 263.9822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 263.9822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel Copyright PCB Label"
+			(at 318.77 263.9822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "2023"
+			(at 318.77 260.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "Teufel_Copyright1S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_3_TP")
+		(at 142.24 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bbd4c0c-06c4-492e-8935-41ed058ad0c3")
+		(property "Reference" "TP5S"
+			(at 142.24 136.9822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 140.97 143.0782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 142.24 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 142.24 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 140.97 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "609e6484-1c05-49d3-8411-4c9acb30a07c")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "TP5S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_3_CON 8P")
+		(at 152.4 121.7422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d4c9304-9af2-4b88-9d1d-e17de0a90beb")
+		(property "Reference" "P1S"
+			(at 129.54 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 134.62 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CJL008DH250197"
+			(at 152.4 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD BTB CONNECTOR 8P P2.5mm GOLD"
+			(at 152.4 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CHUANGJIEL"
+			(at 129.54 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SYSTEM" "Connector"
+			(at 129.54 132.4102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "CJL008DH250197"
+			(at 129.54 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Connector BTB SMT"
+			(at 129.54 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 129.54 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f51d1a9-2e6a-4811-a8e2-347557c9b017")
+		)
+		(pin "6"
+			(uuid "c09baaa7-f51b-472f-869a-85033f46c7a3")
+		)
+		(pin "2"
+			(uuid "dc79025b-d793-4413-b372-542e8e4018d6")
+		)
+		(pin "8"
+			(uuid "1faf4fe3-caed-4f9b-a62e-a4f29abd1a6f")
+		)
+		(pin "7"
+			(uuid "082ed8b9-3752-4ff5-b136-53e351ac9496")
+		)
+		(pin "3"
+			(uuid "936d337d-1b7b-42e2-8738-2037efe912ac")
+		)
+		(pin "4"
+			(uuid "fcb50151-d1e7-468b-a3ef-22cb23c0917a")
+		)
+		(pin "5"
+			(uuid "6a20196e-d5d2-4af0-8412-8e2dc0619838")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "P1S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_0_CON 2X5P")
+		(at 137.16 200.4822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f9ea54-41f5-4a83-b6c9-bdc306af8e22")
+		(property "Reference" "P2S"
+			(at 137.16 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 124.46 220.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Pin_Header_SMD_Side_2X5_254"
+			(at 137.16 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD BTB CONNECTOR 10P P2.54mm GOLD"
+			(at 137.16 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MINGHENG"
+			(at 134.112 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SYSTEM" "Connector"
+			(at 124.46 223.3422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "2.54PH H2.5 2x5Pin"
+			(at 124.46 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" "Connector BTB SMT"
+			(at 124.46 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "${PART_NUMBER}"
+			(at 124.46 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4e576ad1-9d02-40d6-9ae9-1a85f88ba0f7")
+		)
+		(pin "10"
+			(uuid "a75738b0-d4b0-45b6-9be8-b1e23b242260")
+		)
+		(pin "8"
+			(uuid "24e738fe-59e5-42f9-9abc-6b2991b9ac9c")
+		)
+		(pin "3"
+			(uuid "86a31004-b997-4b23-b022-46e5d6ed8258")
+		)
+		(pin "2"
+			(uuid "2c9a4843-68ef-4a0f-a00c-04e1164ea9ea")
+		)
+		(pin "4"
+			(uuid "60c809d1-2995-4cbf-a0c1-b480e19a9d3a")
+		)
+		(pin "7"
+			(uuid "88253e18-62d3-4ed6-b6d7-aeab22267964")
+		)
+		(pin "1"
+			(uuid "d0314b50-aad4-4617-90d1-d2f1a02113e5")
+		)
+		(pin "9"
+			(uuid "ac220bcd-e267-49e3-bf6c-b9cd4c5d64a7")
+		)
+		(pin "5"
+			(uuid "74ba54bf-e997-4287-b8a3-9b2de5ce664a")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "P2S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_0_MARK")
+		(at 207.01 200.4822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48b76fbf-b9ca-43db-88dc-433f4909adea")
+		(property "Reference" "MK1S"
+			(at 204.47 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MARK"
+			(at 204.47 204.8002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "MARK"
+			(at 207.01 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MARK DOT"
+			(at 207.01 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "MARK"
+			(at 204.47 197.4342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "MK_T"
+			(uuid "1c181f27-2ed6-489c-b537-032049cd2829")
+		)
+		(pin "MK_B"
+			(uuid "74ca3e2c-0ab0-420c-9074-ff3929084e6e")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "MK1S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_3_TP")
+		(at 132.08 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56ebac9f-e46e-4196-ad2d-abf72e6b4187")
+		(property "Reference" "TP1S"
+			(at 132.08 136.9822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 130.81 143.0782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 132.08 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 132.08 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 130.81 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d55f7cb4-6f49-42d5-a8fd-64195c7a4007")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "TP1S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_3_TP")
+		(at 134.62 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71dd04ce-ff05-413d-ba30-ab90b5fc8dca")
+		(property "Reference" "TP2S"
+			(at 134.62 136.9822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 133.35 143.0782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 134.62 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 134.62 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 133.35 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a61df12-e0f1-4cc2-a1b4-477b65013da3")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "TP2S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_3_TP")
+		(at 147.32 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c9e5ace-e8ea-40e8-8c06-9becb0a9b149")
+		(property "Reference" "TP7S"
+			(at 147.32 136.9822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 146.05 143.0782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 147.32 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 147.32 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 146.05 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0a57ec4-cd33-4387-8490-c6c9a720cec0")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "TP7S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_0_MARK")
+		(at 214.63 200.4822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92eb7fbf-4278-4946-9132-d9991d3dade4")
+		(property "Reference" "MK2S"
+			(at 212.09 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MARK"
+			(at 212.09 204.8002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "MARK"
+			(at 214.63 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MARK DOT"
+			(at 214.63 200.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "MARK"
+			(at 212.09 197.4342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "MK_T"
+			(uuid "f52a47b2-4041-4ea9-9ea6-5a59d9d7dbb5")
+		)
+		(pin "MK_B"
+			(uuid "2fe997a9-a54d-4d67-ae52-609ab65633ba")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "MK2S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_0_Teufel_ASM_Rev")
+		(at 318.77 257.6322 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cae0f9c-1cd3-4f4a-a9bb-e0cf1914ba37")
+		(property "Reference" "Teufel_ASM_Label1S"
+			(at 318.77 254.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 318.77 259.6642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_ASM_Rev"
+			(at 318.77 257.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 257.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel Assembly Rev. PCB Label"
+			(at 318.77 257.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "2.1"
+			(at 318.77 254.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "Teufel_ASM_Label1S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_3_TP")
+		(at 139.7 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4a70992-8fee-46bc-aca9-69e84af077e7")
+		(property "Reference" "TP4S"
+			(at 139.7 136.9822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 138.43 143.0782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 139.7 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 139.7 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 138.43 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c96cc13-4d85-4e2f-9c3f-9586addf8fe4")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "TP4S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_3_TP")
+		(at 144.78 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7b673b9-7a67-4b87-98d7-f9612d58c67f")
+		(property "Reference" "TP6S"
+			(at 144.78 136.9822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 143.51 143.0782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 144.78 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 144.78 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 143.51 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5e1c7ad-b9f2-420c-8d08-46107bec21e3")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "TP6S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_0_Teufel_PCB_Rev")
+		(at 318.77 251.2822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c36f1e5a-158a-499c-859a-12c8b5a81172")
+		(property "Reference" "Teufel_PCB_Label1S"
+			(at 318.77 248.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 318.77 253.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_PCB_Rev"
+			(at 318.77 251.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 251.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel PCB Rev. PCB Label"
+			(at 318.77 251.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "2.1"
+			(at 318.77 248.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "Teufel_PCB_Label1S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_3_TP")
+		(at 149.86 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1acec09-d96b-491a-9dec-483428516b85")
+		(property "Reference" "TP8S"
+			(at 149.86 136.9822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 148.59 143.0782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 149.86 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 149.86 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 148.59 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd97e9fe-523b-4915-b079-e184d52e62c2")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "TP8S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_0_Teufel NoLogo")
+		(at 322.58 248.7422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4353245-e7b3-44e7-b534-3731f4d9b486")
+		(property "Reference" "Teufel_PCB_Logo?"
+			(at 321.31 247.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${VERSION}-${REVISION}"
+			(at 318.77 247.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Teufel_NoLogo"
+			(at 322.58 248.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 248.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Teufel PCB NoLogo"
+			(at 322.58 248.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 316.23 245.4402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 316.23 245.4402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" ""
+			(at 316.23 245.4402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" ""
+			(at 316.23 245.4402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMP_COEFFICIENT" ""
+			(at 316.23 245.4402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 316.23 245.4402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 316.23 245.4402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 316.23 245.4402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "Teufel_PCB_Logo?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mynd_Conn-altium-import:root_3_TP")
+		(at 137.16 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe9654c0-af3c-4199-b543-232869fda294")
+		(property "Reference" "TP3S"
+			(at 137.16 136.9822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP12"
+			(at 135.89 143.0782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TP120"
+			(at 137.16 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 137.16 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" "TP"
+			(at 135.89 133.9342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "def5fdbe-dd82-4b94-b7e5-599ef74eff61")
+		)
+		(instances
+			(project ""
+				(path "/38c9208b-1f45-43eb-8407-32e87f11e7e5"
+					(reference "TP3S")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

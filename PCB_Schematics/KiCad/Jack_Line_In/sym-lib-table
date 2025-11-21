@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Mynd_LINE_IN_Jack-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Mynd_LINE_IN_Jack-altium-import.kicad_sym")(options "")(descr ""))
+)
