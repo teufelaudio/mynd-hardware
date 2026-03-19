@@ -1,0 +1,96 @@
+(footprint "HDR-SMD_3P-P2.54-H-M_KH-2.54PH-1X3P-L13.5-WT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "9c3883c0-2299-40f6-8e93-8e20a56577c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HX PZ2.54-1X3P WT"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "247dff21-d754-4942-9dfa-99829ade2916")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28ec3cb7-94a0-498c-8e38-5ba1210cf888")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea8edfa9-1000-43f9-aa25-649030276f92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C46061676"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cd5fe61-708f-4443-82c2-c0775dde22ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b211be18-c6cc-4422-ba46-c2f5726005be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 0)
+		(size 1.02 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c956853-b94a-4910-8617-15d43136d17d")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 1.02 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e0e7216-a9ab-4100-91a5-9e83115c0542")
+	)
+	(pad "3" smd rect
+		(at 2.54 0)
+		(size 1.02 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "56435170-41c3-4952-81ab-531a05628f9c")
+	)
+	(embedded_fonts no)
+)
