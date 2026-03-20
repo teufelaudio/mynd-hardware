@@ -1,0 +1,220 @@
+(footprint "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.95 0)
+		(layer "F.SilkS")
+		(uuid "befdba0e-8d2c-47e4-94ce-e32670f31188")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS70933DBVR"
+		(at 0 4.95 0)
+		(layer "F.Fab")
+		(uuid "e8ffb7d0-eaf2-4f7d-a3f5-263fa55ba7a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_TI_TPS70933DBVR_TPS70933DBVR_C89347.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "495c9667-6aef-44dc-863f-128ba1057854")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f33292c-b580-4214-af95-63f1aea76266")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C89347"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0c69af4-6d4b-49dc-a8ac-a5a753dab51a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -1.55)
+		(end -0.9 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "837b211a-66f2-433a-89b7-271d021e5e58")
+	)
+	(fp_line
+		(start -0.9 -1.55)
+		(end 0.9 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1b91964-7899-44c4-a4a1-71aa107c7851")
+	)
+	(fp_line
+		(start -0.9 -0.49)
+		(end -0.9 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c25cf000-a131-489f-8ae6-4ed8573d7af3")
+	)
+	(fp_line
+		(start -0.9 1.41)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3e77e19-8e7b-4fbd-99c4-f94893d96a0d")
+	)
+	(fp_line
+		(start -0.9 1.55)
+		(end 0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4436275a-ab1d-43ff-ad54-ea71db0dcd14")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end 0.9 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d2440c5-77ca-4b4d-b592-21ab9972a814")
+	)
+	(fp_line
+		(start 0.9 -0.49)
+		(end 0.9 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6eb7f902-00ad-4e5b-b5f9-94fe626beb28")
+	)
+	(fp_line
+		(start 0.9 0.46)
+		(end 0.9 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "520ee798-3724-4b3f-97fb-138241f37291")
+	)
+	(fp_line
+		(start 0.9 1.41)
+		(end 0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cde2f054-5c4c-4abc-998d-7e768fbbb1ff")
+	)
+	(fp_circle
+		(center 1.4 1.02)
+		(end 1.6 1.02)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "14adf813-45f8-47cd-9af1-d7143cda6313")
+	)
+	(fp_circle
+		(center 1.4 1.45)
+		(end 1.43 1.45)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3dcdc6ab-cdbb-42cf-a3b3-89908be2122f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7f8e5f4e-2271-46f1-abd7-f859ac8da3a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.3 0.95)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b581541b-8be7-4e2c-8dae-ee9312db93ae")
+	)
+	(pad "2" smd rect
+		(at 1.3 0)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6995b488-5156-4fc6-a252-df53de8fdaf7")
+	)
+	(pad "3" smd rect
+		(at 1.3 -0.95)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dfbb141c-3db8-46ff-a28b-d7a8089cf2f7")
+	)
+	(pad "4" smd rect
+		(at -1.3 -0.95)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "16d1b2ff-e8d0-4e74-99ea-8363ad8347eb")
+	)
+	(pad "5" smd rect
+		(at -1.3 0.95)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b04aafa7-0989-4cf5-b379-ef5a948aaaf2")
+	)
+	(embedded_fonts no)
+)
