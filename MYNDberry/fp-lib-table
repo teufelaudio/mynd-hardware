@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/MYNDberry.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "MYNDberry")(type "KiCad")(uri "${KIPRJMOD}/MYNDberry.pretty")(options "")(descr ""))
+)

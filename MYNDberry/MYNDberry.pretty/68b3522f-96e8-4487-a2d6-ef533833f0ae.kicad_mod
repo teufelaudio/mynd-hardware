@@ -6,18 +6,18 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "3158391a-9a80-40e1-bba1-733490fd7557")
+		(uuid "555325ef-8b4a-4f77-a447-59025d7d3f4b")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
 	(property "Value" ""
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "bb5b616c-0a06-4f90-a62e-3ec9fab658f0")
+		(uuid "b0f6113b-96c2-46c6-ab17-68a0655f0128")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7d5fbb15-4c2f-4c84-8171-d0530584781c")
+		(uuid "a508dd9a-66ac-456a-a904-2a9c19a9c9d1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7ee888af-0429-4258-acd4-8e4aec1c190b")
+		(uuid "cc3c313e-932c-47f4-bf49-555e16da4c18")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "48bc79ee-4b19-498d-bf3a-fd71f1180053")
+		(uuid "fb55f41f-8832-450c-8af9-ef53fc80e641")
 	)
 	(fp_circle
 		(center 4 0)
@@ -70,64 +70,66 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "9df1c53a-5f57-4672-b77b-c093aace5b0b")
+		(uuid "5decc89d-a61a-4130-94d9-4afec3f3ccd5")
 	)
 	(pad "1" smd oval
 		(at 1.000004 0 90)
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7ec15207-16d3-44d9-b0b7-1d51ce09444f")
+		(uuid "5d7c0fa3-b2d7-4a25-a91c-64193ee783e7")
 	)
 	(pad "1" smd oval
 		(at 1.000004 0 90)
 		(size 1 1.6)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "cbf605db-84af-4e0c-b80d-5d39dfc37cfc")
+		(uuid "29f479d3-e516-47b7-be22-df10500ea68f")
 	)
 	(pad "1" smd oval
 		(at 1.878685 -2.12132 45)
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a00ab29e-7a0a-43dd-a1a4-d2f0539976ba")
+		(uuid "6979a620-f3ff-4ab8-98d1-c01ff06bdc14")
 	)
 	(pad "1" smd oval
 		(at 1.878685 -2.12132 45)
 		(size 1 1.6)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "79b04cd0-cab6-407e-9ac4-42b6fdb98828")
+		(uuid "a353b5ef-c24d-42f7-b0f0-a2797bb6abc3")
 	)
 	(pad "1" thru_hole circle
 		(at 4 0)
-		(size 3.5 3.5)
-		(drill 3.2)
+		(size 5 5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin -1)
+		(zone_connect 2)
 		(thermal_bridge_angle 90)
-		(uuid "eb6c8c6e-b252-4d68-a24d-8be53433241b")
+		(uuid "690ef26b-c640-4c16-ad21-46745a5279c3")
 	)
 	(pad "1" smd oval
 		(at 4.000006 -3.000003)
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c4dd20cc-41f0-428f-8f09-5c5062c2d097")
+		(uuid "353c3ac4-1389-4b29-a2e2-77381c83607b")
 	)
 	(pad "1" smd oval
 		(at 4.000006 -3.000003)
 		(size 1 1.6)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "55669221-e52f-446c-9f6a-8cf3fcb905ac")
+		(uuid "150ac843-2d60-4551-91e1-6da470fe1a70")
 	)
 	(pad "1" smd oval
 		(at 6.121326 -2.121323 315)
 		(size 1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "4a600e2b-80cd-4bf1-9f55-9099f64316b6")
+		(uuid "7c3521ff-8c48-4adf-a95a-928f5592b041")
 	)
 	(pad "1" smd oval
 		(at 6.121326 -2.121323 315)
 		(size 1 1.6)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "a60410fc-2733-4910-9e83-ee9c5d345dc0")
+		(uuid "509bbe20-0fe0-4b88-8641-102d572c6cfe")
 	)
 	(embedded_fonts no)
 )

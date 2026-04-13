@@ -4,20 +4,20 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4 0)
+		(at 3.815 -1.0125 270)
 		(layer "F.SilkS")
-		(uuid "9c3883c0-2299-40f6-8e93-8e20a56577c2")
+		(uuid "425dc3b1-e4ea-4f96-8c9a-0c426f7a3917")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
-	(property "Value" "HX PZ2.54-1X3P WT"
+	(property "Value" "HX_PZ2.54-1X3P_WT"
 		(at 0 4 0)
 		(layer "F.Fab")
-		(uuid "247dff21-d754-4942-9dfa-99829ade2916")
+		(uuid "a54fbf18-2dac-4be3-8ed2-a0b293fc02a6")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "28ec3cb7-94a0-498c-8e38-5ba1210cf888")
+		(uuid "d59344b8-5af9-4014-9554-ebd8e40801d5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ea8edfa9-1000-43f9-aa25-649030276f92")
+		(uuid "e50fcb84-0e9a-4a25-9ec2-f72056939d17")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0cd5fe61-708f-4443-82c2-c0775dde22ac")
+		(uuid "8dcfe696-1371-41ba-8076-61fc330972b1")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "b211be18-c6cc-4422-ba46-c2f5726005be")
+		(uuid "1fc55808-35f1-4d78-b675-76830d2ea72c")
 		(effects
 			(font
 				(size 1 1)
@@ -78,19 +78,19 @@
 		(at -2.54 0)
 		(size 1.02 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2c956853-b94a-4910-8617-15d43136d17d")
+		(uuid "637cbf38-e3ac-40dd-892c-c3670a966366")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 1.02 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1e0e7216-a9ab-4100-91a5-9e83115c0542")
+		(uuid "7110f72b-d193-4c54-8c5f-030fba133396")
 	)
 	(pad "3" smd rect
 		(at 2.54 0)
 		(size 1.02 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "56435170-41c3-4952-81ab-531a05628f9c")
+		(uuid "46902b2f-f7fd-487c-aeea-94fd4f1ece9a")
 	)
 	(embedded_fonts no)
 )
